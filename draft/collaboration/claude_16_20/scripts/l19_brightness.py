@@ -105,15 +105,21 @@ def p5_dial():
     c = text(c, "250 → 255 → 0 → 4", (cx, cy + 110), 30, INK, anchor="mm")
     # 右侧对照
     x0 = 720
-    cv2.rectangle(c, (x0, 140), (W - 40, 330), (238, 238, 252), -1)
-    c = text(c, "NumPy 直接相加：绕回", (x0 + 20, 175), 28, RED, anchor="lm")
-    c = text(c, f"np.uint8(250) + np.uint8(10) → {wrap}", (x0 + 20, 230), 26, INK, anchor="lm")
-    c = text(c, "后果：本该最亮的地方出现黑斑", (x0 + 20, 285), 22, GRAY, anchor="lm")
-    cv2.rectangle(c, (x0, 370), (W - 40, 560), (232, 246, 236), -1)
-    c = text(c, "OpenCV 函数：封顶（饱和运算）", (x0 + 20, 405), 28, GREEN, anchor="lm")
-    c = text(c, f"cv2.add(250, 10) → {sat}", (x0 + 20, 460), 26, INK, anchor="lm")
-    c = text(c, "对策：用 cv2.add / cv2.convertScaleAbs", (x0 + 20, 515), 22, GRAY, anchor="lm")
-    c = text(c, "（数组需写成二维，如 np.uint8([[250]])）", (x0 + 20, 600), 20, GRAY, anchor="lm")
+    wrap_s, sat_s = (a + b).tolist(), cv2.add(a, b).tolist()        # 实跑结果，直接写进图里
+    scalar = cv2.add(250, 10)                                         # 对照：标量调用不是 uint8 饱和
+    print(f"    对照：cv2.add(250, 10) 返回 {scalar.dtype} {scalar.ravel().tolist()}（不是 uint8 饱和，图中不使用）")
+    cv2.rectangle(c, (x0, 110), (W - 40, 220), (243, 243, 243), -1)
+    c = text(c, "a = np.uint8([[250]])", (x0 + 20, 145), 26, INK, anchor="lm")
+    c = text(c, "b = np.uint8([[10]])", (x0 + 20, 190), 26, INK, anchor="lm")
+    cv2.rectangle(c, (x0, 245), (W - 40, 395), (238, 238, 252), -1)
+    c = text(c, "NumPy 直接相加：绕回", (x0 + 20, 278), 28, RED, anchor="lm")
+    c = text(c, f"print(a + b)  →  {wrap_s}", (x0 + 20, 328), 26, INK, anchor="lm")
+    c = text(c, "后果：本该最亮的地方出现黑斑", (x0 + 20, 372), 22, GRAY, anchor="lm")
+    cv2.rectangle(c, (x0, 420), (W - 40, 570), (232, 246, 236), -1)
+    c = text(c, "OpenCV 函数：封顶（饱和运算）", (x0 + 20, 453), 28, GREEN, anchor="lm")
+    c = text(c, f"print(cv2.add(a, b))  →  {sat_s}", (x0 + 20, 503), 26, INK, anchor="lm")
+    c = text(c, "对策：用 cv2.add / cv2.convertScaleAbs", (x0 + 20, 547), 22, GRAY, anchor="lm")
+    c = text(c, "注意：要写成二维 uint8 数组；直接写 cv2.add(250, 10) 得不到 255", (x0, 610), 20, GRAY, anchor="lm")
     save(stamp(c, "候选 · 示意图 · 数值经实跑核对"), L, "19-p5-diag-uint8溢出表盘_候选.png")
 
 

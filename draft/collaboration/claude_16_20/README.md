@@ -58,8 +58,11 @@ claude_16_20/
 
 ## 运行说明
 
+以下命令仅用于**独立的新虚拟环境**（如云端或单独 venv）；本机课程环境已锁定，不要在其中安装、升级或替换 OpenCV / NumPy。
+
 ```bash
-pip install opencv-python==4.11.0.86 numpy pillow scikit-image
+python -m venv .venv-claude && . .venv-claude/bin/activate
+pip install opencv-python-headless==4.11.0.86 numpy pillow scikit-image
 python draft/collaboration/claude_16_20/scripts/run_all.py
 ```
 
@@ -67,3 +70,7 @@ python draft/collaboration/claude_16_20/scripts/run_all.py
 - 只写入 `previews/`，不读写本机 D:/E:/F: 路径，不触碰课程工程。
 - 单讲重跑：在 `scripts/` 下运行 `python l17_flip_rotate.py` 等。
 - 云端实际运行环境与输出见 `previews/run_log.txt`。
+
+## 返修记录
+
+- 2026-11-16（按 CODEX_REVIEW.md）：19-P5 右侧代码改为实测的二维 uint8 数组写法 `a = np.uint8([[250]])`、`b = np.uint8([[10]])`，`print(a + b) → [[4]]`、`print(cv2.add(a, b)) → [[255]]`，图中数值由脚本实跑结果直接写入；删除原错误示例 `cv2.add(250, 10) → 255`（实测该标量调用返回 float64 `[260, 260, 260, 260]`，已记入 run_log）。其余 20 份预览重新运行后字节一致，未改动。
