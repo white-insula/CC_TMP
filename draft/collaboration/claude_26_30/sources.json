@@ -1,0 +1,47 @@
+{
+  "说明": "第26—30讲候选素材与录屏代码候选的出处与许可。本批全部输入由程序合成，没有引入外部照片、模型或视频，没有联网下载素材。运行日期 2026-11-16（云端独立环境）。全部候选待用户审核。",
+  "used_inputs": [
+    {
+      "id": "synthetic-26-hsv",
+      "用途": "26-P4 动画",
+      "说明": "HSV 色环、S 圆盘、V 色带及示例色块，均由 HSV/BGR 数值经 cv2.cvtColor（uint8，COLOR_HSV2BGR / COLOR_BGR2HSV）生成",
+      "许可": "自制"
+    },
+    {
+      "id": "synthetic-30-contour",
+      "用途": "30-P4 动画",
+      "说明": "边缘带小起伏的圆（程序绘制后用 findContours 取轮廓）",
+      "许可": "自制"
+    },
+    {
+      "id": "synthetic-30-shapes",
+      "用途": "30-P5 核对附件",
+      "说明": "白底黑色三角形、正方形、长方形、五边形、圆、六边形及两个旋转长方形",
+      "许可": "自制"
+    },
+    {
+      "id": "recording-synthetic-inputs",
+      "用途": "recording_candidates 26—30 的默认输入",
+      "文件": "hsv_shapes_synthetic.png、blocks_synthetic.png、shapes_synthetic.png、washers_synthetic.png、shapes_dust_synthetic.png",
+      "生成代码": "recording_candidates/make_synthetic_inputs.py",
+      "许可": "自制",
+      "不确定性": "合成图不是 [PI] shapes.png、彩色积木照片或垫片照片；颜色与尺寸为人工设定"
+    },
+    {
+      "id": "font-wqy-zenhei",
+      "用途": "预览图中文文字",
+      "文件": "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc（云端系统字体）",
+      "许可": "GPLv2 附字体嵌入例外",
+      "不确定性": "本机运行时优先使用 msyh.ttc，字形不同"
+    },
+    {
+      "id": "software",
+      "清单": "主环境 Python 3.13.18 + opencv-python-headless 4.11.0.86 + numpy 2.5.3 + Pillow 12.3.0；兼容核对环境 Python 3.11.18 + opencv-python-headless 4.11.0.86 + numpy 1.26.4（均为云端独立环境）"
+    }
+  ],
+  "real_inputs_required": [
+    {"素材": "[PI]EXP-OpenCV-shape/shapes.png", "用于": "26-P7/P8、28-P6、29-P6、30-P6/P7", "状态": "未上传，未查看"},
+    {"素材": "彩色积木照片", "用于": "27-P7/P8、29-P7", "状态": "未上传；_build_m4.py 当前用 fruit.jpg，与脚本“积木”不一致，待用户决定"},
+    {"素材": "垫片照片（可选）", "用于": "28-P7", "状态": "可直接使用合成垫片图"}
+  ]
+}

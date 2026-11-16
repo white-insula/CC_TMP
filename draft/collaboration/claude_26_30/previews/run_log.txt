@@ -1,0 +1,95 @@
+运行时间(UTC): 2026-11-16 18:41:12
+Python 3.13.18 | Linux-6.18.44-fc-v470-x86_64-with-glibc2.39
+opencv 4.11.0 | numpy 2.5.3 | Pillow 12.3.0
+中文字体: /usr/share/fonts/truetype/wqy/wqy-zenhei.ttc
+[26] HSV 颜色空间
+    纯色 HSV（COLOR_BGR2HSV，uint8）： {'红': [0, 255, 255], '黄': [30, 255, 255], '绿': [60, 255, 255], '蓝': [120, 255, 255]}
+    同一红色亮暗： [((40, 40, 200), [0, 204, 200]), ((30, 30, 150), [0, 204, 150]), ((20, 20, 100), [0, 204, 100])]
+    接近灰色： [((102, 100, 100), [120, 5, 102]), ((100, 100, 102), [0, 5, 102]), ((100, 102, 100), [60, 5, 102])] ；接近黑色： [((3, 2, 4), [165, 128, 4]), ((2, 3, 2), [60, 85, 3])]
+  saved previews/26/26-p4-anim-HSV色轮浓淡明暗_候选.gif 8 frames
+  saved previews/26/26-p4-anim-关键帧拼图_审阅用.png 960x3291
+    GIF 8 帧，总时长 25.2 秒
+[30] 形状识别 · P4
+    k=0.005: epsilon = 0.005 × 1079.3 = 5.40 像素 → 顶点 15 个 → circle（w/h=1.006）
+    k=0.02: epsilon = 0.02 × 1079.3 = 21.59 像素 → 顶点 8 个 → circle（w/h=1.009）
+    k=0.08: epsilon = 0.08 × 1079.3 = 86.34 像素 → 顶点 4 个 → square（w/h=1.009）
+  saved previews/30/30-p4-anim-原始轮廓与近似多边形_候选.gif 5 frames
+  saved previews/30/30-p4-anim-关键帧拼图_审阅用.png 960x3086
+    GIF 5 帧，总时长 17.8 秒；原始轮廓点数 919
+[30] 形状识别 · P5
+  saved previews/30/30-p5-diag-形状判断流程图_课堂版_候选.png 1280x720
+    三角形: n=3, w/h=1.16 → triangle
+    正方形 160×160: n=4, w/h=1.00 → square
+    长方形 200×110: n=4, w/h=1.81 → rectangle
+    正五边形: n=5, w/h=1.06 → pentagon
+    圆: n=8, w/h=1.00 → circle
+    局限：正六边形: n=6, w/h=1.13 → circle
+    局限：长方形转 30°: n=4, w/h=1.16 → rectangle
+    局限：长方形转 45°: n=4, w/h=1.00 → square
+  saved previews/30/30-p5-ref-形状判断规则实测_核对附件.png 1116x1008
+
+[录屏候选无界面核对] 主环境
+  退出码 0；详细输出见 previews/recording_checks/run_log_main.txt
+
+[录屏候选无界面核对] 兼容环境 /tmp/claude-0/-home-user-CC-TMP/e3b2806b-216f-5055-9862-35e89a613f9b/scratchpad/venv311/bin/python
+  退出码 0；详细输出见 previews/recording_checks/run_log_compat.txt
+  两个环境输出图哈希一致 20 个，不一致 0 个 []
+
+文件 SHA256（完整）:
+  previews/26/26-p4-anim-HSV色轮浓淡明暗_候选.gif  385916 B  10dac0aa7fa9351415037caef4b909bae1f5f29e69d8eee8eee685f2c4041f1d
+  previews/26/26-p4-anim-关键帧拼图_审阅用.png  738978 B  68a330000ce55863e4e531e45c9a039e47c9bae3bb6bdc4b490489cf90390206
+  previews/30/30-p4-anim-关键帧拼图_审阅用.png  603549 B  78ba413c73576ab754baf23ee9bf64e1b44bc204f62424eccf388aac8709692f
+  previews/30/30-p4-anim-原始轮廓与近似多边形_候选.gif  247450 B  e8093bd343f87156728c5449a78bfdf657692ae07095aa538c55f59a99a920fb
+  previews/30/30-p5-diag-形状判断流程图_课堂版_候选.png  170819 B  e4798c40ba600016aec45b3687423d4b40fecd9382c09e7776b13e5614ff6096
+  previews/30/30-p5-ref-形状判断规则实测_核对附件.png  229242 B  d7d3076939881ef31372fba4ec4cc919ec477d15f5f031b611c96064fed97778
+  previews/recording_checks/26/26_input.png  8522 B  7ea19c989c5e4d65bd174fb88c569d4f0bea145a00f259dfd8d7a7f2c9eec51b
+  previews/recording_checks/26/26_p8_mask_red_high_170_179.png  1587 B  5b204a49e3d364a447956330c38d9a66078f26df454f0df5da8c3ef9c90a94bf
+  previews/recording_checks/26/26_p8_mask_red_low_0_10.png  1491 B  9eaf01871d6fc2aa7e948a107fede9f8e00f92439825f1fa08aacb41b34eaa1c
+  previews/recording_checks/26/26_p8_mask_trackbar_init.png  3466 B  52ad097b076b2761a7f38d8f6a13f605f4bc6eb627d8978b69416f4a1a36fc57
+  previews/recording_checks/27/27_input.png  19711 B  17d034cdfef58c8bf0a295a0efd3164ddf0c8b31b50f786a553feb88b74cb056
+  previews/recording_checks/27/27_p7_mask_green.png  2176 B  a070579e51ed0060e91972608fbd920997a56b8ca73ef13efae3ef6ae1322287
+  previews/recording_checks/27/27_p7_result_green.png  4685 B  93a62463b6a2597fe145ca7ee18ff43bbb3b2d5648c3f70158e11612bce415e8
+  previews/recording_checks/27/27_p8_one_band.png  2223 B  2326fb55c67309683158c864b05f5beabee0969044700b02c6323334fa67727d
+  previews/recording_checks/27/27_p8_opened.png  2900 B  c5637871fee250e0c0886bf55242e7a513aad8091242cb25be3e3dd2d447e30a
+  previews/recording_checks/27/27_p8_two_bands.png  3153 B  a4b605bd86accdfd0cc93c0fbabfa72eecbb5c3ea6844ff03dc262176732c2ac
+  previews/recording_checks/28/28_p6_binary.png  3953 B  a320d1e730e4a791e83e7a27d009de1f30a0659e7ed008980ea9d119212bbd82
+  previews/recording_checks/28/28_p6_out.png  11367 B  d8908a3e1e50e7ed78b2663fe76390ed29efcd6b2e14855fdff1770c090d48fe
+  previews/recording_checks/28/28_p7_binary.png  3270 B  14858bed22b7817b4eb1e49d64104cbec0d7d8e58c561f4aa6db0f3f84b9c583
+  previews/recording_checks/28/28_p7_numbered.png  9977 B  b312c55b3cda34ed5ebb6424afab7930c07a29efd205a7fd8c106242863bc9da
+  previews/recording_checks/29/29_p6_out.png  14159 B  91f8e19598aa04147f0aa88b27337e97f98a4df007886c152cfcf4a60fd427d7
+  previews/recording_checks/29/29_p7_mask.png  2900 B  c5637871fee250e0c0886bf55242e7a513aad8091242cb25be3e3dd2d447e30a
+  previews/recording_checks/29/29_p7_out.png  24778 B  871826724f6f88d2f1eda3fefbc449dacfa8c855b490ac4d8a48759c9229154a
+  previews/recording_checks/30/30_eps_0.005.png  15790 B  f419b7075173e1180e127e5dfba978452958f6c12d294be30114179282a3e705
+  previews/recording_checks/30/30_eps_0.02.png  16935 B  fcae22fe45544b7d91bf5273af8a658fc8aa94b95aec175916a9d1e98a5cdb29
+  previews/recording_checks/30/30_eps_0.08.png  17631 B  25c76c650cd5dd509cfabfbe2b3d3dd6b024eae2ca504356d168285d6ae7e273
+  recording_candidates/26/check_headless.py  2502 B  f94a492bc7eedd47dd815978d1fe2be54c919b081988b0d81d4f5f81d2616a2e
+  recording_candidates/26/core.py  1072 B  dbd2cf5e43cfd3de242cbc4d82940faeb024e52054f004d69fb390c01faee14e
+  recording_candidates/26/hsv_shapes_synthetic.png  8522 B  7ea19c989c5e4d65bd174fb88c569d4f0bea145a00f259dfd8d7a7f2c9eec51b
+  recording_candidates/26/p7_hsv_click.py  887 B  03201a337ccd95c16d70a90372e739db4d12d78562141fb609a42d1a49580210
+  recording_candidates/26/p8_hsv_trackbar.py  940 B  a54e354a21b6ce40eb457605415a869bdb85981b4b56b3ed9e9229bc71e5625a
+  recording_candidates/27/blocks_synthetic.png  19711 B  17d034cdfef58c8bf0a295a0efd3164ddf0c8b31b50f786a553feb88b74cb056
+  recording_candidates/27/check_headless.py  2167 B  cd58be096ecc8b2509083a6b1246f7643ef2aa62b81d0425142841a43308f9aa
+  recording_candidates/27/core.py  1104 B  0b028d16499717ae9d72f49a7158b1d1576229ef5426f9d5c3eb063130d6e2bf
+  recording_candidates/27/p7_extract_green.py  796 B  14903c80965903a6126fd2163361afd73e7d7e92f68ece8f4abac2c8d389d7db
+  recording_candidates/27/p8_extract_red.py  948 B  67d83f46d83756a4bfed76dd84fff7bd9f13a9c6a2e54ca199c4c874e2b626e1
+  recording_candidates/28/check_headless.py  1819 B  a463a0f8f7332bad6bbfa62a8e0dac094642cd59ea1e034c8c13f4c4eac03f24
+  recording_candidates/28/core.py  954 B  5ac8a60ca342e519b5f1e93716b0003d6e00ac992599c91c775a6dd7b4924ad6
+  recording_candidates/28/p6_contours.py  962 B  cf15539dc815d0c269e73a77bb14f64913a4b41635f15ead6bbcb48cba9fe8f6
+  recording_candidates/28/p7_modes.py  1101 B  7cb757678d591c5d57b4a53216b074d6b2509f148cd8f57ef02c6d87de8571d7
+  recording_candidates/28/shapes_synthetic.png  7105 B  2299773c5e84f45251e17660ed919e1adfd099e47e951961786c03f419021abb
+  recording_candidates/28/washers_synthetic.png  5757 B  d87d83a537ef6eaa20c7ebbe8b5a94665b0bd46b78eac4c929beaf7b3d5afcc7
+  recording_candidates/29/blocks_synthetic.png  19711 B  17d034cdfef58c8bf0a295a0efd3164ddf0c8b31b50f786a553feb88b74cb056
+  recording_candidates/29/check_headless.py  2346 B  ecd913288fab0f1529d7972d588313acdb63d9755e6c83a1e1b11c156216f17c
+  recording_candidates/29/core.py  1175 B  8bbd54c4173d439e030e25f8948ae2cef0fc1df89e4cea1ed0acf42a962493ef
+  recording_candidates/29/p6_features.py  961 B  349eccca76650e424b6dc240286ebc6aedec7c50f732652f4307c3e825dd9a4e
+  recording_candidates/29/p7_red_boxes.py  991 B  d05731fbfde1453532b0c0ca9b537dc47eeb4f4f14c6e96bc1b36922bbb3e196
+  recording_candidates/29/shapes_dust_synthetic.png  7493 B  e60a42ed09f1911d064800f65fb5936aa42909d65af8d0775e79b5269e888829
+  recording_candidates/30/check_headless.py  1310 B  71d8bb4e730288e574e3c2c26e0ac14ae529d467ade7da571f0a67f206e0dacc
+  recording_candidates/30/core.py  1683 B  9d3ca41eba52325e938fd911a4dd061c4cab763c6109544eac14f7ada38f7fe9
+  recording_candidates/30/p6_shapes.py  1155 B  79bd8737c0ed052e067bb69a23cd269e11a0030c970018f7debd7a5253616a35
+  recording_candidates/30/p7_eps.py  615 B  e59893a968093dfa019c0d936b8e2ca5c1acdd6ee2848576a0dfda95a0f05e35
+  recording_candidates/30/shapes_synthetic.png  7105 B  2299773c5e84f45251e17660ed919e1adfd099e47e951961786c03f419021abb
+  recording_candidates/README.md  2389 B  1623845f16c4280eb948d6d5ca52ef662508b613a223308d3cb5fb6375b5ba3b
+  recording_candidates/gui_smoke.py  1487 B  4330cd3e563b7731658f9d61e2de76a971a22742a419ef207868810263770e86
+  recording_candidates/make_synthetic_inputs.py  5135 B  3d843cf58e7c3fd8b8fdd88fe7719072efe98f207ab618f8bb31f47baa623a80
+  recording_candidates/run_checks.py  2852 B  a4a0aca5706a47fa631dfab73be7964052f19e8a689e4824f436824b1206e6c0
