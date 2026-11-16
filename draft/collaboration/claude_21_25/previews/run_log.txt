@@ -1,0 +1,41 @@
+运行时间(UTC): 2026-11-16 17:54:36
+Python 3.13.18 | Linux-6.18.44-fc-v470-x86_64-with-glibc2.39
+opencv 4.11.0 | numpy 2.5.3 | Pillow 12.3.0
+中文字体: /usr/share/fonts/truetype/wqy/wqy-zenhei.ttc
+[21] 阈值分割与二值化
+    cv2.threshold(…, 127, 255, THRESH_BINARY)：126→0，127→0，128→255；首个白色灰度值 = 128；输出只含 [0, 255]
+  saved previews/21/21-p4-anim-阈值线把渐变条一分为二_候选.gif 14 frames
+  saved previews/21/21-p4-anim-关键帧拼图_审阅用.png 960x2690
+    GIF 14 帧，总时长 23.8 秒
+[22] 形态学操作
+    白色像素数: {'原图': 19520, 'erode×1': 17236, 'erode×3': 13230, 'dilate×1': 22147, 'dilate×3': 28283}
+  saved previews/22/22-p4-anim-腐蚀与膨胀两路对比_候选.gif 6 frames
+  saved previews/22/22-p4-anim-关键帧拼图_审阅用.png 960x1975
+  saved previews/22/22-p4-diag-腐蚀与膨胀两路对比_静态_候选.png 1560x990
+    GIF 6 帧，总时长 17.2 秒
+[23] 边缘检测
+    示意格子：强 5、弱 11，其中与强相连保留 6、孤立删除 5
+    合成图梯度（L1）：边线左端 240、右端 80；孤立淡圆最大 108
+    cv2.Canny 实测: {'(50,150) 右段弱边': True, '(50,150) 孤立圆': False, '(150,150) 右段弱边': False, '(50,50) 孤立圆': True}
+    ③ 各输出边缘像素数： 420 218 596
+  saved previews/23/23-p5-diag-Canny双阈值判定_候选.png 1600x1140
+[24] 图像直方图与均衡化
+    两峰位置 71、181；山谷最低处 114；Otsu 阈值 116
+  saved previews/24/24-p5-diag-双峰直方图与Otsu山谷_补充候选.png 1468x474
+[25] 透视变换：文档扫描矫正
+    src 经 M 映射后: [[0.0, 0.0], [419.0, 0.0], [419.0, 593.0], [0.0, 593.0]] （与 dst 最大误差 0.00e+00）
+    拉正结果与原始合成纸张平均灰度差 3.32（重采样造成，0–255 量级）
+  saved previews/25/25-p4-anim-四点对四点透视矫正_候选.gif 8 frames
+  saved previews/25/25-p4-anim-关键帧拼图_审阅用.png 960x2462
+    GIF 8 帧，总时长 20.0 秒
+
+文件 SHA256（完整）:
+  21/21-p4-anim-关键帧拼图_审阅用.png  420984 B  fc667809b777b825abafa263f470bfb50941c71154f27d551bcc12859a483a31
+  21/21-p4-anim-阈值线把渐变条一分为二_候选.gif  564924 B  d2b7bb06ed8d1174bee1ba0981c67a75ef91bbacc86b67a18a5afe1033152957
+  22/22-p4-anim-关键帧拼图_审阅用.png  348598 B  4798e203721987121090f928b49613319e32bec06536f788f6bd9f89eb5c37ac
+  22/22-p4-anim-腐蚀与膨胀两路对比_候选.gif  222918 B  48d842cbf190bf1c4b8f65ba812dae3dc8ec6eac66b2b17065be6a6253cecee8
+  22/22-p4-diag-腐蚀与膨胀两路对比_静态_候选.png  235927 B  9470eccdeb1dcbdab8a540008dc7fc4225ca8c01f8bdb3ae6c2a7400caccb09d
+  23/23-p5-diag-Canny双阈值判定_候选.png  343330 B  ff8f91dc12cc8fb47c9e3509f33100b797713f93bace8c6ef44a45599e78a471
+  24/24-p5-diag-双峰直方图与Otsu山谷_补充候选.png  314074 B  de2d9323dcea08587143f9d7d5fb31684738e4f15e6329ec5699bcf5cadf75aa
+  25/25-p4-anim-关键帧拼图_审阅用.png  611140 B  1cd0d15dc045f7b56cfb746c87eab2b77e4db5d8342b2d92c7b3f9bb4ba93068
+  25/25-p4-anim-四点对四点透视矫正_候选.gif  403295 B  eb9a1e7be6afd494ea23c4d8cdb7a42f49232106f18a4e7be38a491475a7c187

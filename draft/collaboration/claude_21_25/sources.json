@@ -1,0 +1,65 @@
+{
+  "说明": "第21—25讲候选素材的出处与许可。本批全部输入由程序合成，没有引入任何外部照片、模型或在线素材。访问/运行日期 2026-11-16（云端独立环境）。候选状态一律为待用户审核。",
+  "used_inputs": [
+    {
+      "id": "synthetic-21-gradient",
+      "用途": "21-P4 动画",
+      "说明": "0…255 灰度渐变条（numpy 生成），输出由 cv2.threshold 实算",
+      "许可": "自制",
+      "不确定性": "无"
+    },
+    {
+      "id": "synthetic-22-binary",
+      "用途": "22-P4 动画与静态图",
+      "说明": "320×220 合成二值图（大目标、小黑洞、小白点、细笔画、断线），结果由 cv2.erode / cv2.dilate 实算",
+      "许可": "自制",
+      "不确定性": "不是录屏输入 text_binary.png / noisy_bin.png / hole_bin.png"
+    },
+    {
+      "id": "synthetic-23-strength-and-image",
+      "用途": "23-P5 示意图",
+      "说明": "①② 手工构造的变化强度格子（示意，不是 cv2.Canny 中间输出）；③ 合成灰度图实跑 cv2.Canny",
+      "许可": "自制",
+      "不确定性": "①② 为简化教学示意，图中已注明"
+    },
+    {
+      "id": "synthetic-24-bimodal",
+      "用途": "24-P5 补充候选",
+      "说明": "暗背景 + 亮零件合成灰度图，加高斯噪声；calcHist 与 Otsu 实算",
+      "许可": "自制",
+      "不确定性": "无"
+    },
+    {
+      "id": "synthetic-25-paper",
+      "用途": "25-P4 动画",
+      "说明": "程序绘制 420×594 端正纸张，用 getPerspectiveTransform(dst, src) 逆变换贴到 560×660 桌面，使四角落在 warp.py 的 src 坐标",
+      "许可": "自制",
+      "不确定性": "不是 paper.jpg 实拍；坐标与 warp.py 一致，但纸张内容和桌面为合成"
+    },
+    {
+      "id": "font-wqy-zenhei",
+      "用途": "所有中文文字渲染",
+      "文件": "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc（云端系统字体）",
+      "许可": "GPLv2 附字体嵌入例外（渲染进图片使用无障碍）",
+      "不确定性": "与本机微软雅黑字形不同；脚本在 Windows 上会优先使用 msyh.ttc"
+    },
+    {
+      "id": "software",
+      "清单": "Python 3.13.18；opencv-python-headless 4.11.0.86（与课程 opencv-contrib 4.11.0.86 同核心版本，仅装在云端独立环境）；numpy 2.5.3；Pillow 12.3.0"
+    }
+  ],
+  "existing_materials_to_verify": [
+    {
+      "素材": "[GA] 学生答题卡 212001.jpg（21-P2、21-P8，据 21/visuals.py）",
+      "待核实": "学生作品使用授权、身份信息处理；本次未上传、未查看。"
+    },
+    {
+      "素材": "bus.jpg（23-P2/P4/P6/P7/P8，据 _visuals/m3.py）",
+      "待核实": "同 16—20 讲 sources.json：随 ultralytics 包分发，图片本身授权未单独声明。"
+    },
+    {
+      "素材": "[PI]EXP-Opencv-Scan paper.jpg 与 室内视频 test.mp4（22-P8、24、25 现有配图）",
+      "待核实": "来源为本机参考代码仓库，许可未在本快照中记录；未上传、未查看。"
+    }
+  ]
+}
