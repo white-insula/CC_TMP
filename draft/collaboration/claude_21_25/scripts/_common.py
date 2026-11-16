@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """第21—25讲候选素材公共工具（Claude 云端协作，独立于 draft/online_course/_vis.py）。
 
-- 不读取任何本机 D:/E:/F: 路径；输入图只用 scikit-image 自带的 CC0 / 公有领域样图作“替身图”。
-- 替身图仅用于验证代码效果和版式，不代表课程录屏用的 cat.jpg（果盘）、dark.jpg 或教师人像。
-- 所有输出右下角带“候选”角标，避免与正式素材混淆。
+- 不读取任何本机 D:/E:/F: 路径，不下载图片；本批所有输入均由程序合成（渐变条、二值图、
+  变化强度格子、合成灰度图、合成斜拍纸张），不依赖 scikit-image 或任何外部样图。
+- 合成输入只用于讲清原理和核对数值，不代表录屏用的 page.jpg、text_binary.png、cat.jpg、gray_*.jpg、paper.jpg 等本机文件。
+- 所有输出底部附灰色候选条（stamp），写明“候选”及输入性质，避免与正式素材混淆。
 """
 import os
 import glob
@@ -146,17 +147,6 @@ def title_bar(img, s, size=30):
     bar = canvas(img.shape[1], 64)
     bar = text(bar, s, (20, 32), size, INK, anchor="lm")
     return np.vstack([bar, img])
-
-
-# ---------- 替身输入图（scikit-image 自带，CC0 / 公有领域；出处见 sources.json） ----------
-def stand_in(name):
-    """返回 BGR 图。name: coffee（CC0, Rachel Michetti）/ chelsea（CC0, Stefan van der Walt）/
-    astronaut（NASA 公有领域）/ rocket（SpaceX 公有领域）。"""
-    from skimage import data
-    rgb = getattr(data, name)()
-    if rgb.ndim == 2:
-        return cv2.cvtColor(rgb, cv2.COLOR_GRAY2BGR)
-    return cv2.cvtColor(rgb, cv2.COLOR_RGB2BGR)
 
 
 def save(img, lesson, name):

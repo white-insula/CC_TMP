@@ -1,4 +1,4 @@
-运行时间(UTC): 2026-11-16 17:54:36
+运行时间(UTC): 2026-11-16 18:18:33
 Python 3.13.18 | Linux-6.18.44-fc-v470-x86_64-with-glibc2.39
 opencv 4.11.0 | numpy 2.5.3 | Pillow 12.3.0
 中文字体: /usr/share/fonts/truetype/wqy/wqy-zenhei.ttc
@@ -18,7 +18,15 @@ opencv 4.11.0 | numpy 2.5.3 | Pillow 12.3.0
     合成图梯度（L1）：边线左端 240、右端 80；孤立淡圆最大 108
     cv2.Canny 实测: {'(50,150) 右段弱边': True, '(50,150) 孤立圆': False, '(150,150) 右段弱边': False, '(50,50) 孤立圆': True}
     ③ 各输出边缘像素数： 420 218 596
-  saved previews/23/23-p5-diag-Canny双阈值判定_候选.png 1600x1140
+  saved previews/23/23-p5-diag-Canny双阈值判定_详细审阅版_候选.png 1600x1204
+    课堂版网格：强 [(1, 1), (1, 2)] 相连弱 [(1, 3), (1, 4), (1, 5)] 孤立弱 [(1, 8), (1, 9)] ；等于 50 的格子不进入候选
+  saved previews/23/23-p5-diag-Canny双阈值判定_课堂版_候选.png 1280x720
+    边界实测 一条链：151 150 51 50 49: [151, 150, 51, 50, 49] → [255, 255, 255, 0, 0]
+    边界实测 孤立 150: [150] → [0]
+    边界实测 孤立 151: [151] → [255]
+    边界实测 孤立 51: [51] → [0]
+    边界实测 149 紧挨 151: [149, 151] → [255, 255]
+  saved previews/23/23-p5-ref-Canny实测对照与边界核对_附件.png 1600x1164
 [24] 图像直方图与均衡化
     两峰位置 71、181；山谷最低处 114；Otsu 阈值 116
   saved previews/24/24-p5-diag-双峰直方图与Otsu山谷_补充候选.png 1468x474
@@ -35,7 +43,9 @@ opencv 4.11.0 | numpy 2.5.3 | Pillow 12.3.0
   22/22-p4-anim-关键帧拼图_审阅用.png  348598 B  4798e203721987121090f928b49613319e32bec06536f788f6bd9f89eb5c37ac
   22/22-p4-anim-腐蚀与膨胀两路对比_候选.gif  222918 B  48d842cbf190bf1c4b8f65ba812dae3dc8ec6eac66b2b17065be6a6253cecee8
   22/22-p4-diag-腐蚀与膨胀两路对比_静态_候选.png  235927 B  9470eccdeb1dcbdab8a540008dc7fc4225ca8c01f8bdb3ae6c2a7400caccb09d
-  23/23-p5-diag-Canny双阈值判定_候选.png  343330 B  ff8f91dc12cc8fb47c9e3509f33100b797713f93bace8c6ef44a45599e78a471
+  23/23-p5-diag-Canny双阈值判定_详细审阅版_候选.png  379139 B  48262fd1c7e21aaa86155e3b77c36f62038b833678c632cdbb22b6840f88e212
+  23/23-p5-diag-Canny双阈值判定_课堂版_候选.png  186971 B  5961a57e441e2882cafe1fcc4bfdde0f208cbe00a0df95a79ce48aa37cb70b91
+  23/23-p5-ref-Canny实测对照与边界核对_附件.png  228287 B  c375293d9d074a20daffc2bbfffc7b238eb99cec6cb3a6e69625559b0dbf2057
   24/24-p5-diag-双峰直方图与Otsu山谷_补充候选.png  314074 B  de2d9323dcea08587143f9d7d5fb31684738e4f15e6329ec5699bcf5cadf75aa
   25/25-p4-anim-关键帧拼图_审阅用.png  611140 B  1cd0d15dc045f7b56cfb746c87eab2b77e4db5d8342b2d92c7b3f9bb4ba93068
   25/25-p4-anim-四点对四点透视矫正_候选.gif  403295 B  eb9a1e7be6afd494ea23c4d8cdb7a42f49232106f18a4e7be38a491475a7c187
