@@ -1,0 +1,53 @@
+{
+ "说明": "合成教学样本真值：红圆 2、蓝方 3、黄三角 1",
+ "items": [
+  {
+   "color": "red",
+   "shape": "circle",
+   "center": [
+    130,
+    120
+   ]
+  },
+  {
+   "color": "red",
+   "shape": "circle",
+   "center": [
+    420,
+    360
+   ]
+  },
+  {
+   "color": "blue",
+   "shape": "square",
+   "center": [
+    315,
+    125
+   ]
+  },
+  {
+   "color": "blue",
+   "shape": "square",
+   "center": [
+    615,
+    115
+   ]
+  },
+  {
+   "color": "blue",
+   "shape": "square",
+   "center": [
+    675,
+    355
+   ]
+  },
+  {
+   "color": "yellow",
+   "shape": "triangle",
+   "center": [
+    150,
+    390
+   ]
+  }
+ ]
+}

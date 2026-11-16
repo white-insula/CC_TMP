@@ -1,0 +1,20 @@
+{
+  "说明": "第31—35讲候选素材与录屏代码候选的出处与许可。本批全部输入由程序合成（合成教学样本），没有引入外部照片、视频、模型、学生作品或个人数据，没有联网下载素材。运行日期 2026-11-16（云端独立环境）。全部候选待用户审核。",
+  "used_inputs": [
+    {"id": "synthetic-31-board", "用途": "31-P4 动画与附件", "说明": "程序绘制的灰度电路板（平滑噪声纹理、走线、3 个芯片、1 个电阻）", "许可": "自制"},
+    {"id": "synthetic-31-pcb", "用途": "recording_candidates/31", "文件": "pcb_synthetic.png", "生成代码": "recording_candidates/make_synthetic_inputs.py", "许可": "自制", "不确定性": "不是真实电路板照片"},
+    {"id": "qrcode-32", "用途": "32-P8 流程图中的二维码、recording_candidates/32", "说明": "qrcode 库现场生成，内容为虚构零件编号 PART-2026-0001 及脚本给定字符串", "许可": "自制"},
+    {"id": "fictional-trace-data", "用途": "32-P8 扫码记录示例表", "说明": "零件号、工位、时间、结果、批次均为虚构", "许可": "自制"},
+    {"id": "synthetic-33-parts", "用途": "recording_candidates/33", "文件": "parts_synthetic.png、parts_synthetic_truth.json", "说明": "红圆 2（H 4、H 176）、蓝方 3、黄三角 1，加红色小杂点", "许可": "自制", "不确定性": "不是积木工件实拍"},
+    {"id": "synthetic-34-35-cards", "用途": "recording_candidates/34、35", "文件": "template_synthetic.json、card_synthetic_*.jpg、35/cards_synthetic/*、答案_synthetic.txt、*_truth.json", "生成代码": "recording_candidates/34/make_synthetic_cards.py", "说明": "合成答题卡版面与模板，学号与答案均虚构", "许可": "自制", "不确定性": "版面、定位块、格子位置是人工设定，与 [GA] 学生项目的真实卡和 template.json 无关，不能证明兼容真实卡"},
+    {"id": "font-wqy-zenhei", "用途": "预览图中文文字、32 讲图上中文（云端）", "文件": "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc", "许可": "GPLv2 附字体嵌入例外", "不确定性": "本机运行时优先使用 C:/Windows/Fonts/simhei.ttf 或 msyh.ttc"},
+    {"id": "software", "清单": "主环境 Python 3.13.18 + opencv-python-headless 4.11.0.86 + numpy 2.5.3 + Pillow 12.3.0 + qrcode 8.2 + openpyxl 3.1.5；兼容核对环境 Python 3.11.18 + opencv-python-headless 4.11.0.86 + numpy 1.26.4 + Pillow 13.0.0 + qrcode 8.2 + openpyxl 3.1.5（均为云端独立环境）"}
+  ],
+  "real_inputs_required": [
+    {"素材": "真实电路板照片", "用于": "31-P6/P7"},
+    {"素材": "彩色积木工件照片", "用于": "33-P6/P7"},
+    {"素材": "[GA] 答题卡扫描文件（含 212001.jpg）、settings/template.json、config.json、答案.txt、XX班成绩单.xlsx", "用于": "34-P6/P8、35-P6/P8", "状态": "未上传；涉及学生作品与个人信息，未请求上传"},
+    {"素材": "[GA] 成果展示.mp4", "用于": "34-P2", "状态": "未上传，继续列为缺项，不制作替代视频"},
+    {"素材": "摄像头与手机实测", "用于": "32-P5/P7", "状态": "只能本机进行"}
+  ]
+}

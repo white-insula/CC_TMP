@@ -1,0 +1,100 @@
+运行时间(UTC): 2026-11-16 19:15:48
+Python 3.13.18 | Linux-6.18.44-fc-v470-x86_64-with-glibc2.39
+opencv 4.11.0 | numpy 2.5.3 | Pillow 12.3.0 | qrcode 8.2 | openpyxl 3.1.5
+中文字体: /usr/share/fonts/truetype/wqy/wqy-zenhei.ttc
+[31] 模板匹配 · P4
+    大图 300×180，模板 52×44，分数图 249×137（= (W-w+1)×(H-h+1)）
+    max_val = 1.0000 @ max_loc (14, 25)；min_val = -0.3037
+    另外两个芯片附近的最高分：[0.9752, 0.9703]；干扰电阻附近最高分 0.0386
+  saved previews/31/31-p4-anim-模板滑动与分数图_候选.gif 48 frames
+  saved previews/31/31-p4-anim-关键帧拼图_审阅用.png 960x2466
+    GIF 48 帧（抽样），总时长 26.7 秒
+    阈值 0.5：np.where 候选框 39 个；相邻位置合并后的连通区域 3 个
+    阈值 0.8：np.where 候选框 7 个；相邻位置合并后的连通区域 3 个
+    阈值 0.95：np.where 候选框 3 个；相邻位置合并后的连通区域 3 个
+    本样本 原图：max_val = 1.0000
+    本样本 大图放大 1.5 倍：max_val = 0.3873
+    本样本 大图旋转 25°：max_val = 0.3131
+  saved previews/31/31-p4-ref-阈值框数与变换实测_核对附件.png 928x958
+[32/33/35] 流程图
+  saved previews/32/32-p8-diag-产线扫码追溯流程图_课堂版_候选.png 1280x720
+  saved previews/33/33-p4-diag-颜色形状分拣五步流程图_课堂版_候选.png 1280x720
+  saved previews/35/35-p4-diag-批量阅卷五步流程图_课堂版_候选.png 1280x720
+
+[录屏候选无界面核对] 主环境
+  退出码 0；详细输出见 previews/recording_checks/run_log_main.txt
+
+[录屏候选无界面核对] 兼容环境 /tmp/claude-0/-home-user-CC-TMP/e3b2806b-216f-5055-9862-35e89a613f9b/scratchpad/venv311/bin/python
+  退出码 0；详细输出见 previews/recording_checks/run_log_compat.txt
+  两个环境输出图哈希一致 17 个，不一致 0 个 []
+
+文件 SHA256（完整）:
+  previews/31/31-p4-anim-关键帧拼图_审阅用.png  1260993 B  46fbdb24afc6005c228e946a45717d7159b0550c2cee324626626ed4ce964714
+  previews/31/31-p4-anim-模板滑动与分数图_候选.gif  1288054 B  e6f3f78918bfb2e2b21d77c63ce5022ab4211866f39771acac69b2ca47ff0aed
+  previews/31/31-p4-ref-阈值框数与变换实测_核对附件.png  750294 B  11c2809269f7f4780bc3880b1a19a9510dfed6e25bcdb42e8ca2fc2eae66908b
+  previews/32/32-p8-diag-产线扫码追溯流程图_课堂版_候选.png  250412 B  429bde3b678642c81da10229790d73d2a1775912b9aba7f1c98b462dea81a04e
+  previews/33/33-p4-diag-颜色形状分拣五步流程图_课堂版_候选.png  224119 B  7162b9ecec7ad2200d0dbeb8f7a3cd590427e42a26656032fb6df68690201904
+  previews/35/35-p4-diag-批量阅卷五步流程图_课堂版_候选.png  191414 B  7b329468e3216f17aca7871a934697a432dd0e536ea941d21d0a2b2e8550a9aa
+  previews/recording_checks/31/31_p6_match.png  624782 B  b316ce22a9be17ff0bd2bf630b4994f28a39f6ac9c5cf27fea8c0977d0b922d8
+  previews/recording_checks/31/31_p7_thr_0.5.png  594073 B  ae6ad09c0ce71311a5ce1bf8081f743d1418eafc5384f2fa94a473aba830e684
+  previews/recording_checks/31/31_p7_thr_0.8.png  618657 B  da1af373ec734d0d42a1a15f081fa52b208af06bf0889076c6c4e3b2d025efd6
+  previews/recording_checks/31/31_p7_thr_0.95.png  627210 B  28ad2a8d13a4f5c13a8cf290ca93a80cff031246ac05b005715f9e3548589a35
+  previews/recording_checks/32/32_p7_perspective_synthetic.png  46335 B  4eb8d7c25957709c091a89dae340d0c44dc81b6885d492fb837a2c2b66f4d60f
+  previews/recording_checks/32/32_p7_read.png  21846 B  ce43a79ae8aa8302b8eb08916828869961e4b5ff71e1c2b398c6a52d00a2a0d5
+  previews/recording_checks/32/part.png  708 B  ad90e0c52e4957dde0a76fc02106573b33fa13130467a4b38fa4f470dd8cbf77
+  previews/recording_checks/33/33_p6_mask_blue.png  2386 B  6f86586befb69b2535b0672579ce3b3a211ccae982a951b720aec452c3e9fe40
+  previews/recording_checks/33/33_p6_mask_red.png  2241 B  8ad0c887db83b133b3c2da98e57d2b346f6ba56486b6a539a4ba8a4e32598dc4
+  previews/recording_checks/33/33_p6_mask_yellow.png  1918 B  85c11f2bc742d2999c95e3a84484fc562d86f1b9e4d3126abba43e4672e501cd
+  previews/recording_checks/33/33_p7_current.png  575195 B  1ca41d5dad160eeb51048752647a59056a79e5cc3fc161f6a781acb56031a6c8
+  previews/recording_checks/33/33_p7_rule30_alt.png  575276 B  4303b8c77ee6f876f500f91a1b0d36b819202982d5aa7b7b82a65081d0419c89
+  previews/recording_checks/34/34_p6_card_600x800.png  685272 B  0e379fdcf20aac43b3a88705bf2d9b8743fdb3e4fc9407aab96c30a16d49cc20
+  previews/recording_checks/34/34_p6_marks.png  444348 B  d6c291b5bbb64379d21ea8fd4bfcc44d9340d2eebe0bca8bf89ad19f97855bfb
+  previews/recording_checks/34/34_p8_choice_600x400.png  290515 B  0d16efe6d5df6c8101f0bf018ddee625d82a051213596d17d8218b084bf29ef3
+  previews/recording_checks/34/34_p8_choice_binary.png  3235 B  b7c10ad4a39e1bf94df21f7f64d0189e85ff74a2e28ea9e5daf7d2fb2932bc9b
+  previews/recording_checks/34/34_ref_threshold_99_100_101.png  9133 B  baa4422e407469fe56bd2f4d874495eedb4d12df371739a519b81c5f908aa15d
+  previews/recording_checks/35/成绩单_synthetic.xlsx  6075 B  636730fa2ee7d45dd694f4ecdcf0b3f5717f3276f47fae857b37d455a26779e9
+  recording_candidates/31/check_headless.py  2718 B  8a9b7f699b0f23c2495b747c2c0f06cb8ab2b1691b5aca1d491465f61be1745c
+  recording_candidates/31/core.py  1147 B  e1e483ce4575d3a23c97409aaa5bfeff24bd836915f153a9a1ddd95e08c8ab7d
+  recording_candidates/31/ext_dedupe.py  734 B  4846bde1932549bc1903e41a35a76ce924cc74385397c5d6a16cd3d58815cca6
+  recording_candidates/31/p6_match_one.py  1374 B  7cd390dadd375c52a64f05e2ef1d61f8669c8c8e6e20db203f47238766d4458b
+  recording_candidates/31/p7_match_many.py  1183 B  28c5e374f927f067a91b61b0798d3602c4d2ba3a84afa9ba6ca1a5d284ba68d5
+  recording_candidates/31/pcb_synthetic.png  625473 B  9fd344847e776000d19a80f0cc6686f211b30089db2b4f66338a43f08452dffa
+  recording_candidates/32/check_headless.py  2158 B  4d41b8728ff6e223619e0a6399626673075cd0dc98b494d30c90cc05afce1952
+  recording_candidates/32/core.py  1579 B  8c7f6a14da84de061b61ca3802838d6acefdbc11a4bc131c15964344d8252ec4
+  recording_candidates/32/p5_make_qr.py  333 B  e7c650d981136f56bc6e74c29a87decac5d143788d379e09651e16296ec6e03a
+  recording_candidates/32/p7_read_qr.py  958 B  5d1b5778aec3aa5bd2087088705446979499dafa4a46cbe9ddee980047743f9e
+  recording_candidates/32/p7_scan_cam.py  899 B  77d258eb6bb4ca8420bf28a9e54443ff2cfbd1a696cad74612952a5346b8315e
+  recording_candidates/33/check_headless.py  2080 B  42329c26f2534e6bbb9bb43312b567cb276ac2f374bb912df7a94f2ec6e7da37
+  recording_candidates/33/core.py  2983 B  e6258962ab7b96dcbf5b8e4fe90037e93b27b91d99f079c8612c30b430ff4aed
+  recording_candidates/33/p6_main_loop.py  1103 B  45402f8b945647c0c1822414f8366a195ee0ea0ec84c0bd412e37e449e5a58d0
+  recording_candidates/33/p7_label_count_current.py  705 B  b91ede82b37298a166b4ba1f70395cc2996aada0dc6e70585f0a2c56843c0132
+  recording_candidates/33/p7_label_count_rule30_alt.py  668 B  abe54d339fc1af61304ac2931b49d99c913154705dcd471b2a8c9bb3dbee5e54
+  recording_candidates/33/parts_synthetic.png  575969 B  612e5629cb2f552c5ce9b067fe2e46e041833e1ed9d1ff843702b77e66bff56f
+  recording_candidates/33/parts_synthetic_truth.json  622 B  e8e9dc687a6e39b6063f8a87179cbc1a270e2477fe513646583644fa5cf5bd2a
+  recording_candidates/34/card_lib.py  4539 B  7b6397804ba83654c02fb4f835679db250a42c6b4cfca7df6fe240ca6a9d60b2
+  recording_candidates/34/card_synthetic_01.jpg  374732 B  2b88756a941ada427b91dc36f1888e3c1aa68862fa6ce8147601ffa5d3b2b6ed
+  recording_candidates/34/card_synthetic_01_truth.json  1058 B  175db802800340579e44656e9a388050a07a0e9fe5966d10cd01043afa07a316
+  recording_candidates/34/card_synthetic_extra_block.jpg  374830 B  cc4fe2aa9c78e1d0464ec7cefe5e86c8cf24b3452b7afd207aa1ab98c8983508
+  recording_candidates/34/card_synthetic_missing_locator.jpg  374700 B  f1c55fe65f1207952d9e39034e701b412a794f71d4ffadc5757eacd6ff134722
+  recording_candidates/34/check_headless.py  4053 B  6d4dbebb65cc38f7b32a543aac83cd9bd70578df0895d8ec6ea5e77973bdba6c
+  recording_candidates/34/make_synthetic_cards.py  9800 B  7bf312f879bc92de788f04bae9ea75194c6b78a953eaa2d570f10e78c661a479
+  recording_candidates/34/p6_locate.py  925 B  ff4fcd66d66a8b118df0787e36569709d1c141ea9d116e0e02142d9cbce256e1
+  recording_candidates/34/p8_read_answers.py  1161 B  d129d255fdd96a9c551b72d73085c090240c2b8e6fbdcbd9fbf627909076867b
+  recording_candidates/34/template_synthetic.json  2992 B  ac8d16918eae021b0057e56d8f9303ba215d671de57ea44dcd604791d0e2da53
+  recording_candidates/35/cards_synthetic/card_01_synthetic.jpg  374702 B  8a48e938b58ba969d7dce6dbc14cff56ae6dbfbcf0f729bef35a4ba700222023
+  recording_candidates/35/cards_synthetic/card_02_synthetic.jpg  374114 B  e3c5b1c9464304fdb9695593de7392424a1e80bc5256b240a91586629297f2cf
+  recording_candidates/35/cards_synthetic/card_03_synthetic.jpg  374038 B  5888b168cebfb0f1a07c1011667e28c3c0cc031f9d371dd6d8d8d55afe685fb7
+  recording_candidates/35/cards_synthetic/card_04_synthetic.jpg  375529 B  d102786fec152aa7f818ee77cb8942616eb72fe8e18c7a31e53ea6ef0c5b8fef
+  recording_candidates/35/cards_synthetic/card_05_synthetic.jpg  374729 B  49e23e1e6121648c35769ebc9b5bb1cfe8a2967b43fdc9ffeaf67f25761be29e
+  recording_candidates/35/cards_synthetic/card_06_synthetic_bad.jpg  373012 B  5733af61c74e20a05b0c55c8304f03dbcc0556c2e6cbd647cc9bb13ae18fc83b
+  recording_candidates/35/cards_synthetic/readme_not_a_card.txt  61 B  061ae8d0661c37ca9c02ca638acc1cbe8c21fffc7e82f951600e4483f9b3e632
+  recording_candidates/35/cards_synthetic_truth.json  1496 B  ce3f7f2e17a0a4015a15d6d8e947fada82d3753233b7fa1bee9bf4e6ab140366
+  recording_candidates/35/check_headless.py  3563 B  ec86f9cb963f42ad49618f7aacbbed783683b224371d635ba6d7561ede4efe17
+  recording_candidates/35/core.py  2816 B  0c486c844d0b0996cb5d0b4343f6e8cf1a4851e0e64c9f52bac3b94a74f3d189
+  recording_candidates/35/p6_batch_score.py  942 B  d66677a19ec1eda8431dd8240fc3c2420682e2fd480c4f33e298876ef2ea9c69
+  recording_candidates/35/p8_export_excel.py  924 B  9934af6a5fe13f59529563e63489c2ebc0c4bc36ecf054ced4cb221e45ab0764
+  recording_candidates/35/答案_synthetic.txt  118 B  dbe5868f9f3a34e27a1a7d24ee3ac611a8e717230dc6eee7cb8b60a89293627d
+  recording_candidates/README.md  2319 B  64c6ea2014471796cc4aab61b01f23ee05d0289102a38163d7d639fb065fb8ab
+  recording_candidates/gui_smoke.py  1487 B  4330cd3e563b7731658f9d61e2de76a971a22742a419ef207868810263770e86
+  recording_candidates/make_synthetic_inputs.py  4010 B  91456aa421b41ccdcf943ac3fae3692fde638742348b523a5bdd19130f773b32
+  recording_candidates/run_checks.py  3576 B  3fdf9f899b438fdf1603c1ed145dff2d37736747c2779e0ce535ea7d1e295999
