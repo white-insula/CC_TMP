@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-16",
+  "lessons": [
+    {
+      "lesson": 31,
+      "content_sha256": "c005fd9739036271f09de39196afc97b29fd9b4d95b113bc0a8b4ed9588fc7b4",
+      "local_recording_directory_exists": false
+    },
+    {
+      "lesson": 32,
+      "content_sha256": "07bdfd6abd9441ba5a505938efb8c761c89affdcbf944cc775b193efcafcdf2e",
+      "local_recording_directory_exists": false
+    },
+    {
+      "lesson": 33,
+      "content_sha256": "5275b388aed1eedbf7cbe2dfba0f1c6e8bdcea9951a737d85a7da005990601e7",
+      "local_recording_directory_exists": false
+    },
+    {
+      "lesson": 34,
+      "content_sha256": "9aff572716b80b0d0b9abee7efa34491043895c8b4b549d71c1ece33eb214e7c",
+      "local_recording_directory_exists": false
+    },
+    {
+      "lesson": 35,
+      "content_sha256": "29e9688d44dae26a1aacb469dff81b8f38d5f016ef8bda6d0f19513557613a24",
+      "local_recording_directory_exists": false
+    }
+  ],
+  "note": "Original media, real answer cards and templates are not uploaded. Root AGENTS.md states current delivery status."
+}
