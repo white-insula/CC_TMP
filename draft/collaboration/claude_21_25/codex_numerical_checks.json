@@ -1,0 +1,83 @@
+{
+  "threshold_126_127_128": [
+    0,
+    0,
+    255
+  ],
+  "morphology_white_counts": {
+    "原图": 19520,
+    "erode×1": 17236,
+    "erode×3": 13230,
+    "dilate×1": 22147,
+    "dilate×3": 28283
+  },
+  "canny_grid": {
+    "strong": 5,
+    "weak": 11,
+    "weak_kept": 6,
+    "edge_pixel_counts": [
+      420,
+      218,
+      596
+    ]
+  },
+  "canny_exact_boundary": {
+    "strengths": [
+      151,
+      150,
+      51,
+      50,
+      49
+    ],
+    "edge_values": [
+      255,
+      255,
+      255,
+      0,
+      0
+    ]
+  },
+  "otsu_threshold": 116.0,
+  "perspective": {
+    "mapped": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        419.0,
+        -6.631642443169624e-15
+      ],
+      [
+        419.0,
+        593.0
+      ],
+      [
+        0.0,
+        593.0
+      ]
+    ],
+    "output_shape": [
+      594,
+      420,
+      3
+    ],
+    "wrong_shape": [
+      594,
+      420,
+      3
+    ]
+  },
+  "lesson19_fix": {
+    "numpy": [
+      [
+        4
+      ]
+    ],
+    "opencv": [
+      [
+        255
+      ]
+    ]
+  }
+}
