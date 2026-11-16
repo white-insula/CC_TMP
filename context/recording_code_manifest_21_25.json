@@ -1,0 +1,38 @@
+[
+  {
+    "path": "draft/resources/recording_kit/21/adaptive.py",
+    "sha256": "e7fd440c20c927413c641e8db9d32813e61522d6813531cf71f954a09873ac6e"
+  },
+  {
+    "path": "draft/resources/recording_kit/21/threshold.py",
+    "sha256": "0fcf879a8ce028a8ce4ec6d21e803371084496e575a9543a161087e0da85da6e"
+  },
+  {
+    "path": "draft/resources/recording_kit/22/erode_dilate.py",
+    "sha256": "1d3aab99e39d6dc7878c1c95c444d1f1e684ab1113ecb190d8ebac4101466642"
+  },
+  {
+    "path": "draft/resources/recording_kit/22/open_close.py",
+    "sha256": "dcc83938359f3645e643687f6170362e45b24a9831e2dc539254069882d9fd37"
+  },
+  {
+    "path": "draft/resources/recording_kit/23/canny.py",
+    "sha256": "47ca20cb399f0aabce2b1d29196402a096fc47059adca368c08e6259a29f1d69"
+  },
+  {
+    "path": "draft/resources/recording_kit/23/trackbar.py",
+    "sha256": "cc530ed34da9bf621f2ea5b6aad31e675ab463b7451b3839b53097b2f5c37c21"
+  },
+  {
+    "path": "draft/resources/recording_kit/24/equalize.py",
+    "sha256": "e70c5bcf776c316683bff920225cd29f2d8213d8b5aa4259ad831f8523dcb650"
+  },
+  {
+    "path": "draft/resources/recording_kit/24/histogram.py",
+    "sha256": "f3b9a36f0a0f4d4bbac83a473f8168c3b9152a363f66a640ff443d20b0e6a298"
+  },
+  {
+    "path": "draft/resources/recording_kit/25/warp.py",
+    "sha256": "a2c205758ec43910a518a4449fe9aa1876cd3bb088216465314465199b6ca92a"
+  }
+]

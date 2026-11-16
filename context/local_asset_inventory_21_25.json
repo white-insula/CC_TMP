@@ -1,0 +1,192 @@
+[
+  {
+    "path": "draft/resources/recording_kit/21/page.jpg",
+    "bytes": 70131,
+    "uploaded": false
+  },
+  {
+    "path": "draft/resources/recording_kit/21/page_shadow.jpg",
+    "bytes": 61015,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/21/img/21_adaptive.png",
+    "bytes": 277688,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/21/img/21_binary_inv.png",
+    "bytes": 31163,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/21/img/21_card_marked.png",
+    "bytes": 226800,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/21/img/21_card_pair.png",
+    "bytes": 218736,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/21/img/21_fixed_vs_otsu.png",
+    "bytes": 329008,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/21/img/21_gradient.png",
+    "bytes": 30628,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/21/img/21_paper.png",
+    "bytes": 268632,
+    "uploaded": false
+  },
+  {
+    "path": "draft/resources/recording_kit/22/hole_bin.png",
+    "bytes": 1655,
+    "uploaded": false
+  },
+  {
+    "path": "draft/resources/recording_kit/22/noisy_bin.png",
+    "bytes": 1736,
+    "uploaded": false
+  },
+  {
+    "path": "draft/resources/recording_kit/22/text_binary.png",
+    "bytes": 10478,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/22/img/22_1.png",
+    "bytes": 4999,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/22/img/22_2.png",
+    "bytes": 28697,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/22/img/22_3.png",
+    "bytes": 26341,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/22/img/22_4.png",
+    "bytes": 96273,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/manual/22/22-p4-diag-腐蚀与膨胀对比.png",
+    "bytes": 115802,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/manual/22/22-p5-diag-开运算与闭运算.png",
+    "bytes": 104440,
+    "uploaded": false
+  },
+  {
+    "path": "draft/resources/recording_kit/23/cat.jpg",
+    "bytes": 136365,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/23/img/23_1.png",
+    "bytes": 732169,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/23/img/23_2.png",
+    "bytes": 377925,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/23/img/23_3.png",
+    "bytes": 249089,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/23/img/23_4.png",
+    "bytes": 731375,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/23/img/23_5.png",
+    "bytes": 1013836,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/manual/23/23-p5-diag-Canny双阈值.png",
+    "bytes": 120937,
+    "uploaded": false
+  },
+  {
+    "path": "draft/resources/recording_kit/24/gray_bright.jpg",
+    "bytes": 89221,
+    "uploaded": false
+  },
+  {
+    "path": "draft/resources/recording_kit/24/gray_dark.jpg",
+    "bytes": 70695,
+    "uploaded": false
+  },
+  {
+    "path": "draft/resources/recording_kit/24/gray_foggy.jpg",
+    "bytes": 62145,
+    "uploaded": false
+  },
+  {
+    "path": "draft/resources/recording_kit/24/gray_normal.jpg",
+    "bytes": 116968,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/24/img/24_1.png",
+    "bytes": 276775,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/24/img/24_2.png",
+    "bytes": 135861,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/24/img/24_3.png",
+    "bytes": 227811,
+    "uploaded": false
+  },
+  {
+    "path": "draft/resources/recording_kit/25/paper.jpg",
+    "bytes": 379575,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/25/img/25_1.png",
+    "bytes": 1242991,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/25/img/25_2.png",
+    "bytes": 787864,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/25/img/25_3.png",
+    "bytes": 1217809,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/25/img/25_4.png",
+    "bytes": 293305,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/25/img/25_5.png",
+    "bytes": 818942,
+    "uploaded": false
+  }
+]

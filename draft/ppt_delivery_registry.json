@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T22:47:50",
+  "updated_at": "2026-11-16T09:43:31",
   "lessons": {
     "01": {
       "status": "已输出",
@@ -227,32 +227,46 @@
       "notes": "2026-11-15 用户批准当前版输出。P5原样嵌入已通过的RGB三张数字表GIF，采用居中大图布局；现有源PPT及单讲Word原样复制，禁止整讲重建。"
     },
     "11": {
-      "status": "未输出",
+      "status": "已输出",
       "source": "draft\\online_course\\11\\11-NumPy 数组：图像的数据容器.pptx",
-      "outputs": [],
+      "outputs": [
+        {
+          "path": "out\\online_course\\11_NumPy 数组：图像的数据容器\\11-NumPy 数组：图像的数据容器.pptx",
+          "sha256": "80ee0f97d598d1d3bfebe8690b17e3a0acc1e2c9ca2c3f9289b642b6969c23b7"
+        }
+      ],
       "source_sha256": "80ee0f97d598d1d3bfebe8690b17e3a0acc1e2c9ca2c3f9289b642b6969c23b7",
-      "source_matches_output": null,
-      "protect_from_regeneration": false,
+      "source_matches_output": true,
+      "protect_from_regeneration": true,
       "manual_edits": "未确认；按可能含手工修改保护",
-      "manual_review": "待用户整讲校验确认",
+      "manual_review": "用户确认可输出（2026-11-16，明确批准11、12讲打包；演示录屏待补）",
       "delivery_hold": false,
       "withdrawal": null,
-      "packages": [],
-      "notes": ""
+      "packages": [
+        "out\\online_course\\11_NumPy 数组：图像的数据容器"
+      ],
+      "notes": "用户已审阅并亲测代码，批准当前版打包。演示录屏P6/P7计划下午录制、晚上补入；尚未登记已录制。"
     },
     "12": {
-      "status": "未输出",
+      "status": "已输出",
       "source": "draft\\online_course\\12\\12-图像的读取、显示与保存.pptx",
-      "outputs": [],
-      "source_sha256": "2a06b3316565b5d49028b7708d47cddc326bba7a92cfc50fdd51a9af0c6f0d6f",
-      "source_matches_output": null,
-      "protect_from_regeneration": false,
+      "outputs": [
+        {
+          "path": "out\\online_course\\12_图像的读取、显示与保存\\12-图像的读取、显示与保存.pptx",
+          "sha256": "341750cf0bcc6f629a05db4c3f27e55072bedc0b4871e1713f05723c4ef9aa30"
+        }
+      ],
+      "source_sha256": "341750cf0bcc6f629a05db4c3f27e55072bedc0b4871e1713f05723c4ef9aa30",
+      "source_matches_output": true,
+      "protect_from_regeneration": true,
       "manual_edits": "未确认；按可能含手工修改保护",
-      "manual_review": "待用户整讲校验确认",
+      "manual_review": "用户确认可输出（2026-11-16，明确批准11、12讲打包；演示录屏待补）",
       "delivery_hold": false,
       "withdrawal": null,
-      "packages": [],
-      "notes": ""
+      "packages": [
+        "out\\online_course\\12_图像的读取、显示与保存"
+      ],
+      "notes": "用户已审阅脚本、PPT和代码并批准打包；P7猫照片文件大小图已单独确认。演示录屏P6/P7待补；尚未登记已录制。"
     },
     "13": {
       "status": "未输出",

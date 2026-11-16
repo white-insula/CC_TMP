@@ -48,5 +48,17 @@
     "folder": "out\\online_course\\08_像素与数字图像",
     "asset_count": 8,
     "manifest": "out\\online_course\\08_像素与数字图像\\交付清单.json"
+  },
+  "11": {
+    "folder": "out\\online_course\\11_NumPy 数组：图像的数据容器",
+    "asset_count": 3,
+    "manifest": "out\\online_course\\11_NumPy 数组：图像的数据容器\\交付清单.json",
+    "recording_status": "待补演示录屏"
+  },
+  "12": {
+    "folder": "out\\online_course\\12_图像的读取、显示与保存",
+    "asset_count": 9,
+    "manifest": "out\\online_course\\12_图像的读取、显示与保存\\交付清单.json",
+    "recording_status": "待补演示录屏"
   }
 }
