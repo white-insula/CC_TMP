@@ -1,0 +1,65 @@
+运行时间(UTC): 2026-11-16 16:27:55
+Python 3.13.18 | Linux-6.18.44-fc-v470-x86_64-with-glibc2.39
+opencv 4.11.0 | numpy 2.5.3 | Pillow 12.3.0 | scikit-image 0.26.0
+中文字体: /usr/share/fonts/truetype/wqy/wqy-zenhei.ttc
+[16] 图像的裁剪与缩放
+  saved previews/16/16-p4-diag-ROI坐标与切片对应_候选.png 1260x654
+  saved previews/16/16-p5-diag-resize参数宽在前_候选.png 1280x750
+    print(roi.shape) → (170, 200, 3)
+  saved previews/16/16-p6-shot-裁剪结果预览_替身图.png 934x536
+    a.shape = (240, 320, 3)
+    b.shape = (200, 300, 3)
+    c.shape = (266, 400, 3)
+    写反.shape = (320, 240, 3)
+  saved previews/16/16-p7-shot-三种缩放与压扁对比_替身图.png 1338x466
+[17] 图像的翻转与旋转
+    M = [[0.866, 0.5, -59.808], [-0.5, 0.866, 176.795]]
+  saved previews/17/17-p6-diag-旋转矩阵两步流程图_候选.png 1600x790
+    img.shape, r90.shape = (400, 600, 3) (600, 400, 3) | hv == r180: True
+  saved previews/17/17-p7-shot-翻转与90度旋转预览_替身图.png 1264x712
+  saved previews/17/17-p8-shot-旋转30与负30与缩放0.5_替身图.png 1312x410
+    45°：扩大画布 600x400 → 707x707；或缩放 0.566 保持原画布
+  saved previews/17/17-p8-ref-扩大画布完整旋转_参考.png 942x574
+[18] 在图像上画图写字
+  saved previews/18/18-p6-shot-黑色画布画图写字_实跑.png 670x480
+  saved previews/18/18-p7-shot-英文标签与中文问号与PIL中文_替身图.png 1244x394
+[19] 亮度与对比度调整
+  saved previews/19/19-p4-diag-公式与alpha_beta作用_候选.png 1512x646
+    NumPy 250+10 = 4；cv2.add 250+10 = 255
+  saved previews/19/19-p5-diag-uint8溢出表盘_候选.png 1400x710
+    print(a + b, cv2.add(a, b)) → [[94]] [[255]]
+  saved previews/19/19-p6-shot-溢出黑斑与cv2.add对比_替身图.png 1244x396
+    合成暗图均值 29.6 → fix 均值 78.5；原图均值 98.6
+  saved previews/19/19-p7-shot-convertScaleAbs三组对比_替身图.png 1568x328
+[20] 图像滤波与去噪
+  saved previews/20/20-p5-anim-5x5邻域平均逐格滑动_候选.gif 16 frames
+  saved previews/20/20-p5-anim-关键帧拼图_审阅用.png 960x1563
+    结果网格: [[114, 123, 134, 145, 155], [114, 124, 134, 145, 156], [115, 124, 134, 145, 154]]
+  saved previews/20/20-p2-photo-高增益噪点模拟_合成.png 1204x413
+  saved previews/20/20-p6-shot-椒盐噪声四种对比含放大_替身图.png 1132x620
+  saved previews/20/20-p7-shot-高斯与双边边缘放大对比_替身图.png 1068x772
+  saved previews/20/20-p7-shot-卡通特效静态预览_替身图.png 868x500
+  saved previews/20/20-hw-ref-高斯核3_7_15对比_参考.png 1252x280
+
+文件 SHA256（前16位）:
+  16/16-p4-diag-ROI坐标与切片对应_候选.png  665228 B  2f68fd5fb62d6ecc
+  16/16-p5-diag-resize参数宽在前_候选.png  128902 B  40baa3e1b7bd6ffe
+  16/16-p6-shot-裁剪结果预览_替身图.png  563729 B  dd98c43713cb9e15
+  16/16-p7-shot-三种缩放与压扁对比_替身图.png  712500 B  9b9c0439b77d01d5
+  17/17-p6-diag-旋转矩阵两步流程图_候选.png  357191 B  c89cccaf6f6dd822
+  17/17-p7-shot-翻转与90度旋转预览_替身图.png  918368 B  76730c7d183a960e
+  17/17-p8-ref-扩大画布完整旋转_参考.png  337305 B  50b119f9745427d7
+  17/17-p8-shot-旋转30与负30与缩放0.5_替身图.png  481730 B  be2682fba966e054
+  18/18-p6-shot-黑色画布画图写字_实跑.png  38781 B  2b432ecdde4fd8ae
+  18/18-p7-shot-英文标签与中文问号与PIL中文_替身图.png  664094 B  c92f98ba0deb5479
+  19/19-p4-diag-公式与alpha_beta作用_候选.png  165605 B  975051f2a2e19af5
+  19/19-p5-diag-uint8溢出表盘_候选.png  156713 B  80c99d0b7b123d8c
+  19/19-p6-shot-溢出黑斑与cv2.add对比_替身图.png  628513 B  b29342f9cdeab6b3
+  19/19-p7-shot-convertScaleAbs三组对比_替身图.png  591129 B  c64a0fce5d8d7bd5
+  20/20-hw-ref-高斯核3_7_15对比_参考.png  453898 B  7a5bacb28e51abcc
+  20/20-p2-photo-高增益噪点模拟_合成.png  708310 B  274b0b7bec300a61
+  20/20-p5-anim-5x5邻域平均逐格滑动_候选.gif  468130 B  72402e74acdfeee0
+  20/20-p5-anim-关键帧拼图_审阅用.png  413384 B  04a17f0999cfb961
+  20/20-p6-shot-椒盐噪声四种对比含放大_替身图.png  901698 B  3cc78fb7dcd994be
+  20/20-p7-shot-卡通特效静态预览_替身图.png  660470 B  e7c1da72e4d25f47
+  20/20-p7-shot-高斯与双边边缘放大对比_替身图.png  1054589 B  02a2bbf2291fe114

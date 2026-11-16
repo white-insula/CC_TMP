@@ -1,0 +1,67 @@
+{
+  "说明": "第16—20讲候选素材的出处与许可。访问日期均为2026-11-16（云端）。许可信息来自本地安装的 scikit-image 0.26.0 源码文档字符串，未能在线打开原始网页复核（云端访问 Wikimedia 被网络策略拒绝；未尝试访问 Flickr）。候选状态一律为待用户审核。",
+  "used_inputs": [
+    {
+      "id": "skimage-coffee",
+      "用途": "16、17、18-P7、19、20-P2/P6/课后 的替身输入图（代替本机 cat.jpg 果盘、dark.jpg）",
+      "文件": "scikit-image 包内 skimage/data/coffee.png（600×400）",
+      "作者": "Rachel Michetti（摄影），Pikolo Espresso Bar 提供",
+      "许可": "CC0（scikit-image 文档：No copyright restrictions. CC0 by the photographer）",
+      "访问日期": "2026-11-16",
+      "不确定性": "许可依据为 scikit-image 文档声明，未在线核对原始发布页；仅作替身，不建议进入成片。"
+    },
+    {
+      "id": "skimage-astronaut",
+      "用途": "20-P7 双边滤波人像对比与卡通特效预览的替身输入",
+      "文件": "scikit-image 包内 skimage/data/astronaut.png（512×512）",
+      "作者": "NASA（宇航员 Eileen Collins 官方肖像）",
+      "出处": "NASA Great Images database（scikit-image 文档所列 https://flic.kr/p/r9qvLn）",
+      "许可": "公有领域（scikit-image 文档：No known copyright restrictions, released into the public domain）",
+      "访问日期": "2026-11-16",
+      "不确定性": "真实可识别人物肖像；NASA 素材使用指南通常要求不得暗示背书，人物肖像另有限制。建议仅作内部预览，正式录屏与成片使用教师本人照片。"
+    },
+    {
+      "id": "font-wqy-zenhei",
+      "用途": "所有预览中的中文文字渲染（代替本机 msyh.ttc / simhei.ttf）",
+      "文件": "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc（云端系统字体）",
+      "作者": "文泉驿项目",
+      "许可": "GPLv2 附字体嵌入例外（渲染进图片使用无障碍）",
+      "访问日期": "2026-11-16",
+      "不确定性": "字形与本机微软雅黑/黑体不同；定稿前建议在本机用 msyh.ttc 重新运行脚本（_common.py 会优先使用 Windows 字体）。"
+    },
+    {
+      "id": "software",
+      "用途": "生成全部候选图",
+      "清单": "Python 3.13.18；opencv-python-headless 4.11.0.86（与课程 opencv-contrib-python 4.11.0.86 同核心版本）；numpy；Pillow 12.3.0；scikit-image 0.26.0（BSD-3-Clause）",
+      "访问日期": "2026-11-16"
+    }
+  ],
+  "self_made": [
+    "16-p4、16-p5、17-p6、19-p4、19-p5、20-p5 示意图/动画：程序绘制，自制；数值均由脚本实跑核对。",
+    "18-p6：脚本录屏代码原样运行的结果，无外部输入，自制。",
+    "20-p2：程序合成的暗光高增益噪声模拟，不是实拍，须在图注中写明“模拟”。"
+  ],
+  "existing_materials_to_verify": [
+    {
+      "素材": "ultralytics bus.jpg（据 _visuals/m3.py，被 16_1/16_2/16_3、17_1/17_2/17_3、20_1/20_2/20_3/20_4 使用）",
+      "已知": "随 ultralytics 包分发（ultralytics/assets），该仓库整体许可为 AGPL-3.0。",
+      "待核实": "图片本身的原作者与单独授权未见声明；用于出版教材/成片前需确认或替换为自制/CC0 图片。本次候选已用 CC0 替身图提供可替换版本。"
+    },
+    {
+      "素材": "果盘图 cat.jpg（16—20 录屏输入，18-P2/P7 配图）",
+      "已知": "content.py 记载为豆包 AI 生成，需保留右下角 AI 标识。",
+      "待核实": "未上传，本次未查看；豆包生成内容的使用条款以用户本机记录为准。"
+    }
+  ],
+  "candidate_sources_not_used": [
+    {
+      "需求": "20-P2 夜间真实噪点照片",
+      "建议": "教师在暗光环境用手机/相机自拍（自制授权最清楚），保留原图 EXIF 中的 ISO 便于讲解“增益”。",
+      "在线候选": "未检索：云端无法访问 Wikimedia Commons，未查看任何在线照片，因此不列具体 URL，避免未经核实的出处。"
+    },
+    {
+      "需求": "20-P7 人像（磨皮演示）",
+      "建议": "教师本人照片或已获书面授权的学生/同事照片；脚本 P7 与课后任务3均以自拍为宜。"
+    }
+  ]
+}
