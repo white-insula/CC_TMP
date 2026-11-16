@@ -1,0 +1,65 @@
+{
+  "06": {
+    "日期": "2026-11-14",
+    "状态": "已录制（用户确认）",
+    "页": [
+      5,
+      6,
+      7
+    ],
+    "备注": "用户确认已录制；2026-11-14已提供F:\\MVC原文件位置，三段录屏按规范命名复制到交付包；不检查视频可用性。",
+    "文件": [
+      {
+        "页": 5,
+        "原始文件": "F:\\MVC\\06. Development Environment Setup\\Video1 - Python Installation.mp4",
+        "规范文件名": "Video1 - Python Installation.mp4",
+        "交付副本": "out\\online_course\\06_开发环境搭建\\素材\\演示录屏\\Video1 - Python Installation.mp4",
+        "原目录改名状态": "原样例无需改名",
+        "sha256": "c0805d7a0a07f950eacfd9568a19a225e34ae218efd1c434e32b5284ec77d801"
+      },
+      {
+        "页": 6,
+        "原始文件": "F:\\MVC\\06. Development Environment Setup\\Video2 - .mp4",
+        "规范文件名": "Video2 - pip Configuration and OpenCV Installation.mp4",
+        "交付副本": "out\\online_course\\06_开发环境搭建\\素材\\演示录屏\\Video2 - pip Configuration and OpenCV Installation.mp4",
+        "原目录改名状态": "F盘未改名；已准备本机重命名脚本",
+        "sha256": "4958151a199c1f41fe34d6dc336b13c6c56c040e04bafe027604de2c354c99a6"
+      },
+      {
+        "页": 7,
+        "原始文件": "F:\\MVC\\06. Development Environment Setup\\Video3 - .mp4",
+        "规范文件名": "Video3 - VS Code Installation and Configuration.mp4",
+        "交付副本": "out\\online_course\\06_开发环境搭建\\素材\\演示录屏\\Video3 - VS Code Installation and Configuration.mp4",
+        "原目录改名状态": "F盘未改名；已准备本机重命名脚本",
+        "sha256": "b62738fadafeb25e10bc07531aebb5bd931d0732b07beecbb4d97de4d9244c4e"
+      }
+    ]
+  },
+  "07": {
+    "日期": "2026-11-14",
+    "状态": "已录制（用户确认）",
+    "页": [
+      5,
+      6
+    ],
+    "备注": "用户确认已录制；2026-11-14已提供F:\\MVC原文件位置，两段录屏按规范命名复制到交付包；不检查视频可用性。",
+    "文件": [
+      {
+        "页": 5,
+        "原始文件": "F:\\MVC\\07. First Visual Program\\Video1 - .mp4",
+        "规范文件名": "Video1 - First Visual Program.mp4",
+        "交付副本": "out\\online_course\\07_第一个视觉程序\\素材\\演示录屏\\Video1 - First Visual Program.mp4",
+        "原目录改名状态": "F盘未改名；已准备本机重命名脚本",
+        "sha256": "ee8cb26f7138eb6ec8189782c98e1a826f54ec9220906aab77472b0ff56da977"
+      },
+      {
+        "页": 6,
+        "原始文件": "F:\\MVC\\07. First Visual Program\\Video2 - .mp4",
+        "规范文件名": "Video2 - Changing Images and Window Titles.mp4",
+        "交付副本": "out\\online_course\\07_第一个视觉程序\\素材\\演示录屏\\Video2 - Changing Images and Window Titles.mp4",
+        "原目录改名状态": "F盘未改名；已准备本机重命名脚本",
+        "sha256": "812ab02275ed04bae06f95bdc1a68cfd06814714215c3e2ed7c7c1575b65772a"
+      }
+    ]
+  }
+}

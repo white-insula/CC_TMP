@@ -1,0 +1,52 @@
+{
+  "01": {
+    "folder": "out\\online_course\\01_什么是机器视觉",
+    "asset_count": 9,
+    "manifest": "out\\online_course\\01_什么是机器视觉\\交付清单.json"
+  },
+  "02": {
+    "folder": "out\\online_course\\02_机器视觉的发展与产业现状",
+    "asset_count": 5,
+    "manifest": "out\\online_course\\02_机器视觉的发展与产业现状\\交付清单.json"
+  },
+  "03": {
+    "folder": "out\\online_course\\03_典型应用（一）：工业制造",
+    "asset_count": 7,
+    "manifest": "out\\online_course\\03_典型应用（一）：工业制造\\交付清单.json"
+  },
+  "06": {
+    "folder": "out\\online_course\\06_开发环境搭建",
+    "asset_count": 5,
+    "manifest": "out\\online_course\\06_开发环境搭建\\交付清单.json"
+  },
+  "07": {
+    "folder": "out\\online_course\\07_第一个视觉程序",
+    "asset_count": 5,
+    "manifest": "out\\online_course\\07_第一个视觉程序\\交付清单.json"
+  },
+  "05": {
+    "folder": "out\\online_course\\05_机器视觉系统的组成",
+    "asset_count": 6,
+    "manifest": "out\\online_course\\05_机器视觉系统的组成\\交付清单.json"
+  },
+  "04": {
+    "folder": "out\\online_course\\04_典型应用（二）：生活与交通",
+    "asset_count": 7,
+    "manifest": "out\\online_course\\04_典型应用（二）：生活与交通\\交付清单.json"
+  },
+  "09": {
+    "folder": "out\\online_course\\09_分辨率与图像文件格式",
+    "asset_count": 2,
+    "manifest": "out\\online_course\\09_分辨率与图像文件格式\\交付清单.json"
+  },
+  "10": {
+    "folder": "out\\online_course\\10_颜色模型与通道",
+    "asset_count": 3,
+    "manifest": "out\\online_course\\10_颜色模型与通道\\交付清单.json"
+  },
+  "08": {
+    "folder": "out\\online_course\\08_像素与数字图像",
+    "asset_count": 8,
+    "manifest": "out\\online_course\\08_像素与数字图像\\交付清单.json"
+  }
+}

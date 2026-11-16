@@ -1,0 +1,287 @@
+[
+  {
+    "path": "draft/online_course/16/.manual_hash",
+    "bytes": 32,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/16/16-图像的裁剪与缩放.pptx",
+    "bytes": 2584176,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/16/__pycache__/content.cpython-311.pyc",
+    "bytes": 6802,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/16/img/.gen_hash",
+    "bytes": 32,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/16/img/16_1.png",
+    "bytes": 967459,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/16/img/16_2.png",
+    "bytes": 1019758,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/16/img/16_3.png",
+    "bytes": 596301,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/16/脚本16.docx",
+    "bytes": 39548,
+    "uploaded": false
+  },
+  {
+    "path": "draft/resources/recording_kit/16/cat.jpg",
+    "bytes": 136365,
+    "uploaded": false
+  },
+  {
+    "path": "draft/resources/recording_kit/16/roi.jpg",
+    "bytes": 14014,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/17/.manual_hash",
+    "bytes": 32,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/17/17-图像的翻转与旋转.pptx",
+    "bytes": 3261183,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/17/__pycache__/content.cpython-311.pyc",
+    "bytes": 6946,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/17/img/.gen_hash",
+    "bytes": 32,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/17/img/17_1.png",
+    "bytes": 1421652,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/17/img/17_2.png",
+    "bytes": 1084216,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/17/img/17_3.png",
+    "bytes": 675650,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/17/脚本17.docx",
+    "bytes": 39328,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/manual/17/17-p9-diag-xy前后顺序对照.png",
+    "bytes": 113279,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/manual/17/17-p9-diag-xy坐标顺序对照表.png",
+    "bytes": 72325,
+    "uploaded": false
+  },
+  {
+    "path": "draft/resources/recording_kit/17/cat.jpg",
+    "bytes": 136365,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/18/.manual_hash",
+    "bytes": 32,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/18/18-在图像上画图写字.pptx",
+    "bytes": 911400,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/18/__pycache__/content.cpython-311.pyc",
+    "bytes": 7043,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/18/img/.gen_hash",
+    "bytes": 32,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/18/img/18_1.png",
+    "bytes": 9913,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/18/img/18_2.png",
+    "bytes": 833443,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/18/img/18_3.png",
+    "bytes": 833443,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/18/脚本18.docx",
+    "bytes": 39578,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/manual/18/18-p4-diag-三个绘制函数参数.png",
+    "bytes": 102678,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/manual/18/18-p4-diag-画线矩形圆参数示意图.png",
+    "bytes": 29254,
+    "uploaded": false
+  },
+  {
+    "path": "draft/resources/recording_kit/18/cat.jpg",
+    "bytes": 136365,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/19/.manual_hash",
+    "bytes": 32,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/19/19-亮度与对比度调整.pptx",
+    "bytes": 1023706,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/19/__pycache__/content.cpython-311.pyc",
+    "bytes": 6831,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/19/img/.gen_hash",
+    "bytes": 32,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/19/img/19_1.png",
+    "bytes": 207239,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/19/img/19_2.png",
+    "bytes": 356706,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/19/img/19_3.png",
+    "bytes": 477328,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/19/脚本19.docx",
+    "bytes": 39544,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/manual/19/19-p4-diag-加法公式与权重.png",
+    "bytes": 730611,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/manual/19/19-p5-diag-uint8溢出绕圈.png",
+    "bytes": 97491,
+    "uploaded": false
+  },
+  {
+    "path": "draft/resources/recording_kit/19/cat.jpg",
+    "bytes": 136365,
+    "uploaded": false
+  },
+  {
+    "path": "draft/resources/recording_kit/19/dark.jpg",
+    "bytes": 76453,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/20/.manual_hash",
+    "bytes": 32,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/20/20-图像滤波与去噪.pptx",
+    "bytes": 4574203,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/20/__pycache__/content.cpython-311.pyc",
+    "bytes": 7047,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/20/img/.gen_hash",
+    "bytes": 32,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/20/img/20_1.png",
+    "bytes": 1196145,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/20/img/20_2.png",
+    "bytes": 180094,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/20/img/20_3.png",
+    "bytes": 1825358,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/20/img/20_4.png",
+    "bytes": 1192806,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/20/脚本20.docx",
+    "bytes": 39548,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/manual/20/20-p5-diag-邻域平均5x5.png",
+    "bytes": 118825,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/manual/20/20-p8-diag-滤波器选择对照.png",
+    "bytes": 136970,
+    "uploaded": false
+  },
+  {
+    "path": "draft/online_course/manual/20/20-p8-diag-滤波方法选择对照表.png",
+    "bytes": 90295,
+    "uploaded": false
+  },
+  {
+    "path": "draft/resources/recording_kit/20/cat.jpg",
+    "bytes": 136365,
+    "uploaded": false
+  }
+]

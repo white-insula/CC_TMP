@@ -1,0 +1,930 @@
+{
+  "snapshot_date": "2026-11-16",
+  "files": [
+    {
+      "path": "draft/course_materials_resume.md",
+      "bytes": 17383,
+      "sha256": "616f000cb76eee8ae80453e90a37bac6fdddc0ea02b086b390738fa750c09991"
+    },
+    {
+      "path": "draft/online_course/01/content.py",
+      "bytes": 6429,
+      "sha256": "be58fef4778e2ec95db7be2759ee038576b355c22a83abc10dba2883d71b9de8"
+    },
+    {
+      "path": "draft/online_course/01/素材需求.md",
+      "bytes": 2186,
+      "sha256": "168efb3387b8f02fdc0902a85d4125ca8cbcb8758085dc012cad4b9e474f00c4"
+    },
+    {
+      "path": "draft/online_course/02/content.py",
+      "bytes": 7119,
+      "sha256": "4ead7936f9b26da60cff877f84e8702ccf03f7e61d7f4a6dc1fe64ab92691100"
+    },
+    {
+      "path": "draft/online_course/02/素材需求.md",
+      "bytes": 1310,
+      "sha256": "f1995fd8c81772b8f3758fadc87301a3cced74699070e2808b57816813f7e86d"
+    },
+    {
+      "path": "draft/online_course/03/content.py",
+      "bytes": 5551,
+      "sha256": "db17a6cde83441a149f0d5f7c51de76c70b4ba40489d82025d58249d5e0a1e53"
+    },
+    {
+      "path": "draft/online_course/03/素材需求.md",
+      "bytes": 1662,
+      "sha256": "cc295e377165e19b6f96b8f60015ad3b1d59365973f8aacd89a3b0ac9d63ef92"
+    },
+    {
+      "path": "draft/online_course/04/content.py",
+      "bytes": 5739,
+      "sha256": "bcc5454bac98d3fe69ec51d5ff38831e52cf4f435436d2a255df6a98aae084d1"
+    },
+    {
+      "path": "draft/online_course/04/素材需求.md",
+      "bytes": 1420,
+      "sha256": "e4e6d56d141133ad19cd9e30410a987534e8886db5a7948f27029ce9773f149e"
+    },
+    {
+      "path": "draft/online_course/05/content.py",
+      "bytes": 6258,
+      "sha256": "bcfa63108ee44bef840f28cd4e5715832004b83ced68883212a0598b69c2f705"
+    },
+    {
+      "path": "draft/online_course/05/素材需求.md",
+      "bytes": 1479,
+      "sha256": "74053043a93ffef98c2ccde2df4aca49d0062956036f5bfa4cbfe9ff01185437"
+    },
+    {
+      "path": "draft/online_course/06/content.py",
+      "bytes": 6967,
+      "sha256": "883e2d6c47939e8b05ca1f3ed6b7025cd14b03ab17844600b1db859a022c223e"
+    },
+    {
+      "path": "draft/online_course/06/素材需求.md",
+      "bytes": 1941,
+      "sha256": "258b5212d4ffa64cca8f20ea375e01e3e9b751df3021a5c97e81714f4878366f"
+    },
+    {
+      "path": "draft/online_course/07/content.py",
+      "bytes": 5791,
+      "sha256": "31c1b34aaf2bdbbfbfcec6454d60c11a0c0edd8a882f9fc2fe108fbd07db6054"
+    },
+    {
+      "path": "draft/online_course/07/素材需求.md",
+      "bytes": 1464,
+      "sha256": "ae2d7e4dae6d61122dd37208593ad4215a7efbe4d81e05bc98591af12a31c918"
+    },
+    {
+      "path": "draft/online_course/08/content.py",
+      "bytes": 5006,
+      "sha256": "9567266da5a3626bd7c3676232ce5f8b751bcff694c915fa87991e90b678ef78"
+    },
+    {
+      "path": "draft/online_course/08/素材需求.md",
+      "bytes": 1020,
+      "sha256": "3c9520258f170e9d19d1783b485cc5c28bc3559eda05e37849bee79904e2068a"
+    },
+    {
+      "path": "draft/online_course/09/content.py",
+      "bytes": 5253,
+      "sha256": "ff05b2392ee51ebd6f6c4bc7fbe0c1a19f19d21c3c9840e194cef8d0ebecb2e9"
+    },
+    {
+      "path": "draft/online_course/09/素材需求.md",
+      "bytes": 570,
+      "sha256": "8102b43812d90f4a0e710884dae21fd8690acaa7f3fcf4b0ce6086c73fa03d5c"
+    },
+    {
+      "path": "draft/online_course/10/content.py",
+      "bytes": 5074,
+      "sha256": "db8628b74672d7e35343156ac8e133542b574aa6e20ad35688ca08f0e2426b11"
+    },
+    {
+      "path": "draft/online_course/10/素材需求.md",
+      "bytes": 697,
+      "sha256": "529cffc4b9000cadade3709b35ea4c013d658fb8d6a87d9ac12f030dbbc84f04"
+    },
+    {
+      "path": "draft/online_course/11/content.py",
+      "bytes": 5867,
+      "sha256": "8d364f31d1219cb7732b216903b25c96ef3e7ad967370ef7892a0e21ab1c7d37"
+    },
+    {
+      "path": "draft/online_course/11/素材需求.md",
+      "bytes": 596,
+      "sha256": "6d8b31609b1aba84e3e8d5891f9202d882caa75d9c8052fa86e3bd76ed9902c2"
+    },
+    {
+      "path": "draft/online_course/12/content.py",
+      "bytes": 6078,
+      "sha256": "ce9dee644d8cf85cba7870e4dc5f4aa1e1e7cebe3febf562a1fe4febf5e7b2a5"
+    },
+    {
+      "path": "draft/online_course/12/素材需求.md",
+      "bytes": 475,
+      "sha256": "5a96b4a5aed0e56723b983b54075d34d17f0ab0ebc4cd0f176379b3284fe70de"
+    },
+    {
+      "path": "draft/online_course/13/content.py",
+      "bytes": 5772,
+      "sha256": "cd4682e451c834bd7fc8260906bef7c60d83b1510ef728d24fd92769cbd12277"
+    },
+    {
+      "path": "draft/online_course/13/素材需求.md",
+      "bytes": 648,
+      "sha256": "3c65c14b472a35d107e6a013a334629bf080de0e6d76184851dd4782f5416cad"
+    },
+    {
+      "path": "draft/online_course/14/content.py",
+      "bytes": 5721,
+      "sha256": "16299e40924ba8245c7e55fb577aca2eb682f4735cdc6e5cc496a222d8ce9e08"
+    },
+    {
+      "path": "draft/online_course/14/素材需求.md",
+      "bytes": 711,
+      "sha256": "1554e98c60632f1f0bc26cdcf1cae85af92ad761a81c90d606857d56f9350314"
+    },
+    {
+      "path": "draft/online_course/15/content.py",
+      "bytes": 6159,
+      "sha256": "78fdb5448560f9a10b7c22281377a3cabd8db497aaeeb58b311e0e218ba63cbd"
+    },
+    {
+      "path": "draft/online_course/15/素材需求.md",
+      "bytes": 715,
+      "sha256": "9a55a3425e37247ac2630ade83ce0bb5f75a1187dce89f35028b497d5f9f3ff3"
+    },
+    {
+      "path": "draft/online_course/16/content.py",
+      "bytes": 6337,
+      "sha256": "d378bec7403a1419a6c0f7221e32be904bb37b8945c213891799bca3f32474dd"
+    },
+    {
+      "path": "draft/online_course/16/素材需求.md",
+      "bytes": 750,
+      "sha256": "0abc862197bf9f575f733afb22c3003c8ea111b5686062e6ba73b03b6e7ed98c"
+    },
+    {
+      "path": "draft/online_course/17/content.py",
+      "bytes": 6456,
+      "sha256": "ce13bba2e31d7b167abfb0d335f8162a3a07e32e62db9c3b4720734bcdbc1e63"
+    },
+    {
+      "path": "draft/online_course/17/素材需求.md",
+      "bytes": 842,
+      "sha256": "1d0c1c50a9bf2bb5da137104b8dd9b152dfb45809c38f9a13e1eed31f08aa0be"
+    },
+    {
+      "path": "draft/online_course/18/content.py",
+      "bytes": 6592,
+      "sha256": "af2137e74391a9aa94851c870fdc230ca996a7b874c0d32e9b28d9f6f46a5137"
+    },
+    {
+      "path": "draft/online_course/18/素材需求.md",
+      "bytes": 1450,
+      "sha256": "16d2b8f843bb6efc371372cedf528d979f0f18c40b0b3df7f449608b2c3db481"
+    },
+    {
+      "path": "draft/online_course/19/content.py",
+      "bytes": 6415,
+      "sha256": "d8c338b24edaeead07560a5f2c6c8a9728288f642aea1eb250e0e04a773873ae"
+    },
+    {
+      "path": "draft/online_course/19/素材需求.md",
+      "bytes": 867,
+      "sha256": "83d8cfd531147e52dbf69451dbb80384d8a8b88839144808d48c9f262fb54c10"
+    },
+    {
+      "path": "draft/online_course/20/content.py",
+      "bytes": 6579,
+      "sha256": "74b68d9870c2a28edf15b5e70f3db6e47044f089307d9b763f05cf633899b0fa"
+    },
+    {
+      "path": "draft/online_course/20/素材需求.md",
+      "bytes": 1073,
+      "sha256": "fdf68dff98d1bc54e07cf3f101a1e3d6be443c49edfc464cb1685976239cefb7"
+    },
+    {
+      "path": "draft/online_course/21/content.py",
+      "bytes": 7236,
+      "sha256": "c8d3225de0406ab2a78a3609a617e6cd8d5f61a841afd445400db3a5ece65727"
+    },
+    {
+      "path": "draft/online_course/21/visuals.py",
+      "bytes": 5615,
+      "sha256": "1db0b245d80adbea1c577543ba51f616d97e0b459362d2ab5a109b7546e0b27b"
+    },
+    {
+      "path": "draft/online_course/21/素材需求.md",
+      "bytes": 1139,
+      "sha256": "7b70692c16b5d04fb0e31fd2766ac3cf75f3133d6147776159240fdc63dd4849"
+    },
+    {
+      "path": "draft/online_course/22/content.py",
+      "bytes": 5957,
+      "sha256": "53e3cc657ced7f447f9234351b5a3453cb14d301b447be31873a1edac932d496"
+    },
+    {
+      "path": "draft/online_course/22/素材需求.md",
+      "bytes": 1073,
+      "sha256": "2ac82e73ba6e0d977a894cc0ee15325b1cd269769786d3f71ae48446e033b793"
+    },
+    {
+      "path": "draft/online_course/23/content.py",
+      "bytes": 6320,
+      "sha256": "e4230a1548b284bcbcc66f47f552f9469415fc78d825f56c7198687154dda709"
+    },
+    {
+      "path": "draft/online_course/23/素材需求.md",
+      "bytes": 923,
+      "sha256": "bcd4f057046bb8bc7405e8d0fb0efff7c99c9d5c11e46898cc67ae81075e11ec"
+    },
+    {
+      "path": "draft/online_course/24/content.py",
+      "bytes": 6186,
+      "sha256": "b4e0cae926712e065b3179888a48276c066f587c9207bbde7defe80a23aa04c0"
+    },
+    {
+      "path": "draft/online_course/24/素材需求.md",
+      "bytes": 685,
+      "sha256": "76f116616b968de88fbfe151d8f76a354d2d3bfb19350a817b04e422630da990"
+    },
+    {
+      "path": "draft/online_course/25/content.py",
+      "bytes": 7101,
+      "sha256": "d71dc6a0311fd29110b44ee5579729f7aadba52b8cfaf68dcb662d3bf4bbb0c3"
+    },
+    {
+      "path": "draft/online_course/25/素材需求.md",
+      "bytes": 1065,
+      "sha256": "722fdfea74be05ea9c59e5e1b10efa80e1912cc7830e8c3c0e04ecb61b31c1b2"
+    },
+    {
+      "path": "draft/online_course/26/content.py",
+      "bytes": 6818,
+      "sha256": "d5fa439a9325023ad995c2550652e920910a72d1a5234d88a8efccc7c9a67846"
+    },
+    {
+      "path": "draft/online_course/26/素材需求.md",
+      "bytes": 1325,
+      "sha256": "d1e3a3f3e23d6921714043572ba24a1a41ad61347e194d8865eb6e49b9332788"
+    },
+    {
+      "path": "draft/online_course/27/content.py",
+      "bytes": 6355,
+      "sha256": "074297269a3862d6296b1a3087372c49c258c0ca7b01eec705c658cb3779758e"
+    },
+    {
+      "path": "draft/online_course/27/素材需求.md",
+      "bytes": 784,
+      "sha256": "593e32993b61824e912a6873497cc70030a92b24811036032e37a1983d61f699"
+    },
+    {
+      "path": "draft/online_course/28/content.py",
+      "bytes": 6567,
+      "sha256": "66c42594881bfdbd18e0b6b3dfba8c2edd178a108f973bacf1ad731d01d98be1"
+    },
+    {
+      "path": "draft/online_course/28/素材需求.md",
+      "bytes": 756,
+      "sha256": "cd3573d5278cf0cedd5e60d856202271d8af7315d3282f40c525870f70a04af1"
+    },
+    {
+      "path": "draft/online_course/29/content.py",
+      "bytes": 6200,
+      "sha256": "4858a7eec3e129816e52f110cf3fc32bdbf848692661afb6804d027d662a1ef6"
+    },
+    {
+      "path": "draft/online_course/29/素材需求.md",
+      "bytes": 982,
+      "sha256": "e8b0c45a710b2f35c7606eff5c57c92aedb9ada2a7ca8d0b73e2eb4c8a5cff10"
+    },
+    {
+      "path": "draft/online_course/30/content.py",
+      "bytes": 6616,
+      "sha256": "45fc2d9287e69ad960b76020f3c2e9b4d56b2f0b1566aa6191adc454e4c941f1"
+    },
+    {
+      "path": "draft/online_course/30/素材需求.md",
+      "bytes": 888,
+      "sha256": "a75ded9714de4734149749b16ae55cff15ccc9fdb4d33b45a4c9a836ae36262e"
+    },
+    {
+      "path": "draft/online_course/31/content.py",
+      "bytes": 6379,
+      "sha256": "c005fd9739036271f09de39196afc97b29fd9b4d95b113bc0a8b4ed9588fc7b4"
+    },
+    {
+      "path": "draft/online_course/31/素材需求.md",
+      "bytes": 877,
+      "sha256": "37d0b00ed7c0c2a84154291cab011ca03683daec45caad36c2bc09fc7ffeee04"
+    },
+    {
+      "path": "draft/online_course/32/content.py",
+      "bytes": 6578,
+      "sha256": "07bdfd6abd9441ba5a505938efb8c761c89affdcbf944cc775b193efcafcdf2e"
+    },
+    {
+      "path": "draft/online_course/32/素材需求.md",
+      "bytes": 908,
+      "sha256": "fc3db0b27d3ac349021859f19662fb40b2c1f55b38bc80df99796c9752db7ac9"
+    },
+    {
+      "path": "draft/online_course/33/content.py",
+      "bytes": 6757,
+      "sha256": "5275b388aed1eedbf7cbe2dfba0f1c6e8bdcea9951a737d85a7da005990601e7"
+    },
+    {
+      "path": "draft/online_course/33/素材需求.md",
+      "bytes": 809,
+      "sha256": "a8409bd82036338ffe75a0b6d4374e602bccbaa6c57acee6ac558d2ca5aaaeae"
+    },
+    {
+      "path": "draft/online_course/34/content.py",
+      "bytes": 8674,
+      "sha256": "9aff572716b80b0d0b9abee7efa34491043895c8b4b549d71c1ece33eb214e7c"
+    },
+    {
+      "path": "draft/online_course/34/素材需求.md",
+      "bytes": 1280,
+      "sha256": "2bdf8d83c2538655afdd447b939bcb606efc5090d7c4548db82d586f6104cd87"
+    },
+    {
+      "path": "draft/online_course/35/content.py",
+      "bytes": 7100,
+      "sha256": "29e9688d44dae26a1aacb469dff81b8f38d5f016ef8bda6d0f19513557613a24"
+    },
+    {
+      "path": "draft/online_course/35/素材需求.md",
+      "bytes": 500,
+      "sha256": "5689861e095408d831df320e4d162cc6c0466aaade12067f1187bcaad2f38edf"
+    },
+    {
+      "path": "draft/online_course/36/content.py",
+      "bytes": 7650,
+      "sha256": "a96d3fad39aadb161497389db59a13fb050e5a08f2a2450670a03366c8225721"
+    },
+    {
+      "path": "draft/online_course/36/素材需求.md",
+      "bytes": 776,
+      "sha256": "3fd4410a26ccc7c370db6154b1965fbdd8fce36de70ff9677feb135147b4f102"
+    },
+    {
+      "path": "draft/online_course/37/content.py",
+      "bytes": 6237,
+      "sha256": "2baceceff979d3b60122a0d0dad547dc2e9ece2eec3e576bbed178e0ca2bdac4"
+    },
+    {
+      "path": "draft/online_course/37/素材需求.md",
+      "bytes": 694,
+      "sha256": "9f3552b6d0e718e0c63ee721aaa48077d88a356a300c672ede7604f225fb637b"
+    },
+    {
+      "path": "draft/online_course/38/content.py",
+      "bytes": 6339,
+      "sha256": "5e001e413d84becee3c629b970c606152256ee8934b63e79fc0769eae5b7d969"
+    },
+    {
+      "path": "draft/online_course/38/素材需求.md",
+      "bytes": 836,
+      "sha256": "2cf7a18b8aec356445da07f2a3811beac6bde24cdee815a1d57b27f1318dbd78"
+    },
+    {
+      "path": "draft/online_course/39/content.py",
+      "bytes": 6262,
+      "sha256": "05618405ce0a4bf6c7596b30f445f166d1b93991e435c7f17aebec5fb973caef"
+    },
+    {
+      "path": "draft/online_course/39/素材需求.md",
+      "bytes": 657,
+      "sha256": "05b87cffaa40f040aed6d5abfb131baeecdc0f7bef74fdc7fb78a8898bb2e1b9"
+    },
+    {
+      "path": "draft/online_course/40/content.py",
+      "bytes": 6810,
+      "sha256": "98e0f44e239047e2177a134987b57a288e4f63fffa1a22f032e32ddb11dd6244"
+    },
+    {
+      "path": "draft/online_course/40/素材需求.md",
+      "bytes": 324,
+      "sha256": "d6d98a13a3a72c2bbc1d9f7853fcb13e420a1245beb55de145bb314a123d00a8"
+    },
+    {
+      "path": "draft/online_course/41/content.py",
+      "bytes": 7104,
+      "sha256": "3213a302d9c247d76a48870fc373d3a08091aac5f813245e61995ed834e17b2f"
+    },
+    {
+      "path": "draft/online_course/41/素材需求.md",
+      "bytes": 879,
+      "sha256": "1e37d8384c318b01dde6777b00262c9bd197532df9143e1e6644a09926704dfc"
+    },
+    {
+      "path": "draft/online_course/42/content.py",
+      "bytes": 6817,
+      "sha256": "31102285d0255cf0117dd781fd9e33c5f3695a270815b10c1c28a1c0df283a72"
+    },
+    {
+      "path": "draft/online_course/42/素材需求.md",
+      "bytes": 633,
+      "sha256": "9658851c35f7073ff69818ddd9d06bcb151d3f565d3ec9f3c9c8feddfcaac6e3"
+    },
+    {
+      "path": "draft/online_course/43/content.py",
+      "bytes": 7041,
+      "sha256": "6fb55dd123b4bbc4b3fcf40f74c6404c7994ceecf5ca1f30645aeb1d431e67c8"
+    },
+    {
+      "path": "draft/online_course/43/素材需求.md",
+      "bytes": 788,
+      "sha256": "34dea3aa8773f428ecf98768b50acdd36c2ce8370297e094c1ee1a3add92cb7d"
+    },
+    {
+      "path": "draft/online_course/44/content.py",
+      "bytes": 7459,
+      "sha256": "833a0aa5936781f05c8174af003eb2b76408b9428d5f988ccafdafeca339d4af"
+    },
+    {
+      "path": "draft/online_course/44/素材需求.md",
+      "bytes": 1013,
+      "sha256": "3ec9ae2df958ae284d70d9bf225886dcb0e25fe98dc9e02def66c4f1a180bf29"
+    },
+    {
+      "path": "draft/online_course/45/content.py",
+      "bytes": 7124,
+      "sha256": "4cff70dbc321c0f3a10b24d0f88c23480753e29420e6822ce09a1dee6dbe24ef"
+    },
+    {
+      "path": "draft/online_course/45/素材需求.md",
+      "bytes": 494,
+      "sha256": "1bf1293fc6fc6f4ddac3fcd2378a4b9cf16f542f27009a7db47da72b29b30461"
+    },
+    {
+      "path": "draft/online_course/46/content.py",
+      "bytes": 6617,
+      "sha256": "894cbd28c7f14e8a14b3e3ba89133efc6253600db5b4df1fa08ad4520193e3f5"
+    },
+    {
+      "path": "draft/online_course/46/素材需求.md",
+      "bytes": 765,
+      "sha256": "6237c17f0f74150004473424e50b600dc07ddb9732b1c09a4881f03369cf0753"
+    },
+    {
+      "path": "draft/online_course/47/content.py",
+      "bytes": 6571,
+      "sha256": "5ae93a4dee7a30747d212972a6424d58652d4613f3b4e2567a0efc561a08dd5a"
+    },
+    {
+      "path": "draft/online_course/47/素材需求.md",
+      "bytes": 634,
+      "sha256": "44ef1d4cf0fb4604b5340fd311d832dea6674c2dbf86cd86b082f1e6bae153a2"
+    },
+    {
+      "path": "draft/online_course/48/content.py",
+      "bytes": 6687,
+      "sha256": "4624f233b76b93020b31606a9f4a395d08a4451d311f8a0706c590be05f7b341"
+    },
+    {
+      "path": "draft/online_course/48/素材需求.md",
+      "bytes": 573,
+      "sha256": "2e8f8f6127bb69455c238220cb5bb18419d311c56348ca964000d95a4506b028"
+    },
+    {
+      "path": "draft/online_course/49/content.py",
+      "bytes": 7056,
+      "sha256": "0b187972aef6e42dc27f0ade64ea89578911f3ea532840b65f773ee4f03985e0"
+    },
+    {
+      "path": "draft/online_course/49/素材需求.md",
+      "bytes": 705,
+      "sha256": "454ab2ab457e519700e10c2f6c848eafec93d72291a6caec03d3e73d1b4642ff"
+    },
+    {
+      "path": "draft/online_course/50/content.py",
+      "bytes": 6156,
+      "sha256": "db5be50ced76ea4b31b42e15ac1ef97ae9b4ebc6ef9475facf06e887ed871111"
+    },
+    {
+      "path": "draft/online_course/50/素材需求.md",
+      "bytes": 973,
+      "sha256": "c33b3cc30052526d766441ff26316f131ef17c3d6d27032f1c8f08c7be6553ef"
+    },
+    {
+      "path": "draft/online_course/51/content.py",
+      "bytes": 6013,
+      "sha256": "d0dacdf489a55b167370c71426b27bd3a449b3bfd3df88ba6cc80b8282ea5bba"
+    },
+    {
+      "path": "draft/online_course/51/素材需求.md",
+      "bytes": 752,
+      "sha256": "ec97849ebc9a41698a1ba6637d08df896a9c17c11130cdcaeba468f2b732f1ca"
+    },
+    {
+      "path": "draft/online_course/52/content.py",
+      "bytes": 7633,
+      "sha256": "5351558b3027ea51f78152128c557082f4e5dfb94f05c0300600715f72c897c6"
+    },
+    {
+      "path": "draft/online_course/52/素材需求.md",
+      "bytes": 1476,
+      "sha256": "79d6c9743646900cbb6c691ecc7409fccec0949812cda57956f081bd3c5fa01a"
+    },
+    {
+      "path": "draft/online_course/53/content.py",
+      "bytes": 5687,
+      "sha256": "3983fd592a70b6980788782fd18f4ec180cf291b40a3ac68e7f93b18645081ba"
+    },
+    {
+      "path": "draft/online_course/53/素材需求.md",
+      "bytes": 601,
+      "sha256": "29260aa0b06a479c918a38cb0a1e86d9cf3a4ba6a02bac9159ce7841841a3531"
+    },
+    {
+      "path": "draft/online_course/54/content.py",
+      "bytes": 5516,
+      "sha256": "d904484fb69e8c3ca8799fa714ac78c9e9f4e3bbea95a7174ffb48184102e6ab"
+    },
+    {
+      "path": "draft/online_course/54/素材需求.md",
+      "bytes": 732,
+      "sha256": "4bc5b5846e07cef45f041c22510d7d301366edaf0fbc8d2393917d9b06cece16"
+    },
+    {
+      "path": "draft/online_course/55/content.py",
+      "bytes": 6631,
+      "sha256": "406fbc44570874599ec0b4d63220711ae7b013f407f817e33fb1ac43a47d5193"
+    },
+    {
+      "path": "draft/online_course/55/素材需求.md",
+      "bytes": 716,
+      "sha256": "3dd620d9eab9775629a013be757f8e159339bb91a7c6515ad13aa5a5ef9c4d6d"
+    },
+    {
+      "path": "draft/online_course/56/content.py",
+      "bytes": 7306,
+      "sha256": "5608324e335c62646d8fca945597c948e0850f50484a4fd7e23390b51eaa074d"
+    },
+    {
+      "path": "draft/online_course/56/素材需求.md",
+      "bytes": 818,
+      "sha256": "ea6471976606cd69c67a165b61bdb408f77e636155dd0dbdcd4134685def8504"
+    },
+    {
+      "path": "draft/online_course/57/content.py",
+      "bytes": 6807,
+      "sha256": "84723c8dba96fddffe466b036ad058da508ac71709d25f341b6a32f60a993108"
+    },
+    {
+      "path": "draft/online_course/57/素材需求.md",
+      "bytes": 1194,
+      "sha256": "8917eeb3dcd71e6c52869eb98be604225f47ffd265a75e2066c735934dea4648"
+    },
+    {
+      "path": "draft/online_course/58/content.py",
+      "bytes": 7244,
+      "sha256": "316720b7591112d660197d418c024fe8762ed2269e0e48066ff1b9467fe61ca7"
+    },
+    {
+      "path": "draft/online_course/58/素材需求.md",
+      "bytes": 782,
+      "sha256": "df66af873e97abb3e575a7381358b8f01f5172763202c05b9041ef040a586677"
+    },
+    {
+      "path": "draft/online_course/59/content.py",
+      "bytes": 7331,
+      "sha256": "3a2c97383fdb5342f9ddf15263bbeb788bd3cef5ad7291b1b41c4c6903436866"
+    },
+    {
+      "path": "draft/online_course/59/素材需求.md",
+      "bytes": 1229,
+      "sha256": "319318a2102225264561c896237026caf05067fddee803c1be36ed1a318af887"
+    },
+    {
+      "path": "draft/online_course/60/content.py",
+      "bytes": 7790,
+      "sha256": "bd52bb9f53c8f8066d022a6528b3a1db9276327f2f85505d92600f5ccb6d71fc"
+    },
+    {
+      "path": "draft/online_course/60/素材需求.md",
+      "bytes": 1051,
+      "sha256": "cb1e7587d97ab3118a0e4bba7347aadf11e6367b5ed5f6e2416ab6c6fd27214e"
+    },
+    {
+      "path": "draft/online_course/_delivery.py",
+      "bytes": 6531,
+      "sha256": "397da682bd69fee01cc9314ef964713728f241d9bbbddefd6ae2ab83a399648c"
+    },
+    {
+      "path": "draft/online_course/_lib.py",
+      "bytes": 7347,
+      "sha256": "c7fc6fd205df08e915c21e32fb705f3aa2cccf4db3a2f33763bc70713be6eca3"
+    },
+    {
+      "path": "draft/online_course/_manual.py",
+      "bytes": 8712,
+      "sha256": "f873bd96357132e8c6f0f4ca127dded6a36a12d3290e58582553ef433cb23464"
+    },
+    {
+      "path": "draft/online_course/_merge.py",
+      "bytes": 8663,
+      "sha256": "8eb493bd233ec023afa1350a0dd4095615349065bb0ebe152c3987b75972632a"
+    },
+    {
+      "path": "draft/online_course/_package_delivery.py",
+      "bytes": 12115,
+      "sha256": "40366d81130ce198fdf3af0867c0f9fa9ef73fc7b729ebf4e18027672412dad3"
+    },
+    {
+      "path": "draft/online_course/_ppt.py",
+      "bytes": 20607,
+      "sha256": "2b5be5cd593aea0f775bf52c582001e9cf3e3d7f83cbed4d8b308ec23d35fc8f"
+    },
+    {
+      "path": "draft/online_course/_render.py",
+      "bytes": 1531,
+      "sha256": "fe02a6c3a5415205a874752800f39dea8e4386d655f9a5a1ac79631ad19f8fe3"
+    },
+    {
+      "path": "draft/online_course/_sync_check.py",
+      "bytes": 10920,
+      "sha256": "6f7037db793982b537d6364ba2351efefc40beb952b0c597c44fa05fb9ec021a"
+    },
+    {
+      "path": "draft/online_course/_todo_summary.py",
+      "bytes": 1548,
+      "sha256": "3ab654f8b8fc6813adc0075187e69bfef386bfd952c116cec1e0b785087fd5eb"
+    },
+    {
+      "path": "draft/online_course/_vis.py",
+      "bytes": 11268,
+      "sha256": "f98e7574eb577dfd3d7da0f7e625ecd86ff6e4e59201b2657c89c6c8cd4f5844"
+    },
+    {
+      "path": "draft/online_course/_visuals/m2.py",
+      "bytes": 13974,
+      "sha256": "9622fbd80581096ac80000c04bcab18e85c6219fc7f22609afc3a481635cd488"
+    },
+    {
+      "path": "draft/online_course/_visuals/m3.py",
+      "bytes": 14457,
+      "sha256": "9dcfd34d16191226cbaff3e780d723cc6a76ff3186d575cc61778ba4677ed6b6"
+    },
+    {
+      "path": "draft/online_course/_visuals/m4.py",
+      "bytes": 21500,
+      "sha256": "95de9d61c95d53c3c08f4c7a4f60b62bceaa3e7af5af665859dd5731b0e5e4e2"
+    },
+    {
+      "path": "draft/online_course/_visuals/m5.py",
+      "bytes": 6040,
+      "sha256": "df579eedea76b82da381c58e882ec0a1ad97b69c8c29a90592828e3a8f4f8191"
+    },
+    {
+      "path": "draft/online_course/_visuals/m6.py",
+      "bytes": 14713,
+      "sha256": "80a1a969e103f0b688004ef7810b6fbbb95fee8d86b57294a852f86e68d6950d"
+    },
+    {
+      "path": "draft/online_course/_visuals/m7.py",
+      "bytes": 11830,
+      "sha256": "76172bb91fba1ef28723d013f919ced0cf6f4590e68c3c2b9d8274c3d3f4a6d4"
+    },
+    {
+      "path": "draft/online_course/_visuals/m8.py",
+      "bytes": 16422,
+      "sha256": "d26a3711bc5877c35bb8bcc4d0d8abc674007cca8fffa759f8cbd278d031a401"
+    },
+    {
+      "path": "draft/online_course/_visuals/run.py",
+      "bytes": 1749,
+      "sha256": "ea1dd844cfa3799450ae331f21334c040fdb23432a414241d57d9f1e9fed0b57"
+    },
+    {
+      "path": "draft/online_course/_visuals/sheet.py",
+      "bytes": 926,
+      "sha256": "a57854df7eda6fe908fced17c167e2476049844320d32a12174bebc2cb6ce279"
+    },
+    {
+      "path": "draft/online_course/manual/PPT动图替换.json",
+      "bytes": 296,
+      "sha256": "46abde795fd52b7141ce1c4e9ab5bb27e46a4fc2aafc66a9527500e6cf404cdf"
+    },
+    {
+      "path": "draft/online_course/manual/README.md",
+      "bytes": 5765,
+      "sha256": "3be5caf16baa6cddd4ec6ce6b61bbf07ea44c345642f6751e3eab31119e6d5e3"
+    },
+    {
+      "path": "draft/online_course/manual/展示方式确认.json",
+      "bytes": 1828,
+      "sha256": "d183707ccb9947daa600a158e4a33052a688554a357d03a63c3cbcfb92d3de54"
+    },
+    {
+      "path": "draft/online_course/manual/录屏完成登记.json",
+      "bytes": 3165,
+      "sha256": "2d9cea5ca7a3c3a5acbb6f9b9dbdca4d8db827c1c027d1ad70bd30aeaccde35e"
+    },
+    {
+      "path": "draft/online_course/manual/素材登记.csv",
+      "bytes": 41613,
+      "sha256": "d88c00eebebbe5306594db0a2cb99f13a5b82d461d675cc531309cd3f02a19a6"
+    },
+    {
+      "path": "draft/online_course/脚本版本说明.md",
+      "bytes": 2537,
+      "sha256": "69c17ecd14c817904a1ca8b16c18e6462df61a0002b382037a6d75493a07ba7d"
+    },
+    {
+      "path": "draft/ppt_delivery_packages.json",
+      "bytes": 1985,
+      "sha256": "25295e7fea4dc8ef6467c32da4c414271cb4bcfff2bf9dfc5d04187ed6acdf74"
+    },
+    {
+      "path": "draft/ppt_delivery_registry.json",
+      "bytes": 38987,
+      "sha256": "fcab63c90e1f53aa250b5ec95391cfa2059f2687bf14c9d89e43d85cedf145be"
+    },
+    {
+      "path": "draft/ppt_delivery_status.md",
+      "bytes": 9444,
+      "sha256": "d40ccb0c3845e74099176a8147598ab3c04f4db3b7ed6d559a8082156650c879"
+    },
+    {
+      "path": "draft/production_01_60_todo.md",
+      "bytes": 70917,
+      "sha256": "9356dc99dcd6d011c3c1e6569e5e0a07e950402b16c55cb9a43bab74fbda73b2"
+    },
+    {
+      "path": "draft/resources/recording_kit/11/colors.py",
+      "bytes": 512,
+      "sha256": "a096978c92384adb837f40b8753cde151293e749b81e918c508b90af6590e18a"
+    },
+    {
+      "path": "draft/resources/recording_kit/11/numpy_image.py",
+      "bytes": 315,
+      "sha256": "db4adf8b49f2c994fe4b4359cd3b2f9b293b1415c5d00f66a65d39adabf0d2d9"
+    },
+    {
+      "path": "draft/resources/recording_kit/12/read_check.py",
+      "bytes": 446,
+      "sha256": "2040fd8bd711b7ab407e46089c1a0d00c1c22671f83cc16b43b6b4d14860a74c"
+    },
+    {
+      "path": "draft/resources/recording_kit/12/read_fail.py",
+      "bytes": 311,
+      "sha256": "391b0fbed82490a82fdb40233fb3a1bf10aedf59b3157943acd917c5653e1160"
+    },
+    {
+      "path": "draft/resources/recording_kit/12/save.py",
+      "bytes": 409,
+      "sha256": "dc7b92f87b41add45e3be3aee010b492aa889279cbb958b6fbc90a3561ff9306"
+    },
+    {
+      "path": "draft/resources/recording_kit/13/identity.py",
+      "bytes": 465,
+      "sha256": "9b91c7885a21131e25aa37a373b9708f5242c367106a08a87324854d04817fc5"
+    },
+    {
+      "path": "draft/resources/recording_kit/14/blue_block.py",
+      "bytes": 273,
+      "sha256": "a062884e6518e1a4ea612c4189f6e74abc2b20b3f216536df7b17c45faee8dc7"
+    },
+    {
+      "path": "draft/resources/recording_kit/14/center.py",
+      "bytes": 333,
+      "sha256": "c844920108471d49edce24bdd11a6f97fa2747de3ffc9f553bd8194be4f0abef"
+    },
+    {
+      "path": "draft/resources/recording_kit/14/red_block.py",
+      "bytes": 312,
+      "sha256": "b59b451724f19d8f8028d7039e98439d66a776e202175e0450c5e62d6aea6436"
+    },
+    {
+      "path": "draft/resources/recording_kit/15/gray.py",
+      "bytes": 327,
+      "sha256": "859b60fe5eefc28c619fb5154b9ad05de1daf5ee728c499ad6f33c28855b45a4"
+    },
+    {
+      "path": "draft/resources/recording_kit/15/merge.py",
+      "bytes": 409,
+      "sha256": "54f9c4a4dec46de54ef14cf2c56cf07534ccdaf376f340cc00f49b2fd2009ba4"
+    },
+    {
+      "path": "draft/resources/recording_kit/15/split.py",
+      "bytes": 332,
+      "sha256": "da176eb4dbfe5057556c8e68d367be98f9ccf3e5a798bbd286be51db9d9d138a"
+    },
+    {
+      "path": "draft/resources/recording_kit/16/crop.py",
+      "bytes": 364,
+      "sha256": "114ea6b7b363499438ae0ad6f6e16678062e5d98f8c6958cfb372616fab523eb"
+    },
+    {
+      "path": "draft/resources/recording_kit/16/resize.py",
+      "bytes": 616,
+      "sha256": "d21a21b8c32c270f0bd3a096a54e97c481db4e1a65ad0ec09f69e441eda8e925"
+    },
+    {
+      "path": "draft/resources/recording_kit/17/flip_rotate.py",
+      "bytes": 594,
+      "sha256": "54df165664de161e989b3c46643bcb6f52dca81b18392ac7ebeff7d72abd44b1"
+    },
+    {
+      "path": "draft/resources/recording_kit/17/rotate30.py",
+      "bytes": 514,
+      "sha256": "16ec04a4e4b54233d54f81e67d3fd24de0dd9a49ff3001c839becdc4243b115c"
+    },
+    {
+      "path": "draft/resources/recording_kit/18/draw.py",
+      "bytes": 619,
+      "sha256": "29d125bd766fc84186d4613ed988745733775e7117a6c19e33b23cbcef36f476"
+    },
+    {
+      "path": "draft/resources/recording_kit/18/label.py",
+      "bytes": 1444,
+      "sha256": "ae4289142a19648cf7ff74f3f584abefa2f11ab2a6618422109ca67f02b72ec8"
+    },
+    {
+      "path": "draft/resources/recording_kit/19/overflow.py",
+      "bytes": 459,
+      "sha256": "955423bb27c2ee1cf035545a7fc6c47ddbad280c0fcb380bcb13e2eda418d565"
+    },
+    {
+      "path": "draft/resources/recording_kit/19/scale_abs.py",
+      "bytes": 577,
+      "sha256": "dc721da3c53cddd0be7ff1e949f0568a358c8e5021229f6d05a3dd7530b62f94"
+    },
+    {
+      "path": "draft/resources/recording_kit/20/bilateral.py",
+      "bytes": 443,
+      "sha256": "23614547ff405d53968e95bc971b1239937c02e3b5f745350aa3549966754021"
+    },
+    {
+      "path": "draft/resources/recording_kit/20/cartoon.py",
+      "bytes": 902,
+      "sha256": "2fcbe2526a9fe11d20d937545a8290ce27407ba55b833105141ee0cad2ebedb2"
+    },
+    {
+      "path": "draft/resources/recording_kit/20/denoise.py",
+      "bytes": 545,
+      "sha256": "e6bfc64e95662e4c1f344875777e7336ca7ddedf2a80512c753524e71449617d"
+    },
+    {
+      "path": "draft/resources/recording_kit/_autotest.py",
+      "bytes": 3502,
+      "sha256": "56ac19ac74e689833b1d632aa4ec23aeea8ba02a9997bb2f1709c6edbc9aecb4"
+    },
+    {
+      "path": "draft/resources/recording_kit/_build_m3.py",
+      "bytes": 14204,
+      "sha256": "80efecd13bd89a2dabb6319145edca58a857b7e680fbb02f7046e81678bd5307"
+    },
+    {
+      "path": "draft/resources/recording_kit/_build_m4.py",
+      "bytes": 20007,
+      "sha256": "c900e13bb651b14f6f0b988848986e38ac4e5cdf1b79c3fc9445aade1f2cbe38"
+    },
+    {
+      "path": "draft/resources/recording_kit/_verify_cards.py",
+      "bytes": 3716,
+      "sha256": "d5ff82d002d12feb74bf0c74559009460aad02593d58e3d52214fb4a78d3a408"
+    },
+    {
+      "path": "draft/resources/recording_kit/preflight_11_15.py",
+      "bytes": 4121,
+      "sha256": "e3b86ec1ea1c711105e5fd32904248f300328fe182e1691a9558d2cc91364bb3"
+    },
+    {
+      "path": "draft/resources/recording_kit/README.md",
+      "bytes": 3073,
+      "sha256": "311862c4021a827e0318c46fced9edac36731487bfb4dcc62fc619af114a783a"
+    },
+    {
+      "path": "plan/COURSE_SCRIPTS.md",
+      "bytes": 34978,
+      "sha256": "c3b921ee6036db73994dfd79c59b3ec12ccde6d5fa776ec30ea6605f66179aee"
+    },
+    {
+      "path": "plan/METHOD.md",
+      "bytes": 6668,
+      "sha256": "ab4f11fab83f7ba7a2995ad0763bf251125e1f105e33e1a4fa19ac873eeca6ff"
+    },
+    {
+      "path": "plan/NAMING.md",
+      "bytes": 3568,
+      "sha256": "766cfcc1840dc28965c65468af28027b8296d322dbdb5474b65115f6192da591"
+    },
+    {
+      "path": "plan/OUTLINE.md",
+      "bytes": 13244,
+      "sha256": "596f8efa636d36e397fd8ffae17080270cef35300f929a6e9f8661facf15ce3c"
+    },
+    {
+      "path": "plan/PLAN.md",
+      "bytes": 62928,
+      "sha256": "3cbf94bd5938f3d99e2c54e5564472f64dee4186b8f5fed6051a80cc7a8c0cfb"
+    }
+  ]
+}

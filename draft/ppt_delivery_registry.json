@@ -1,0 +1,930 @@
+{
+  "updated_at": "2026-11-15T22:47:50",
+  "lessons": {
+    "01": {
+      "status": "已输出",
+      "source": "draft\\online_course\\01\\01-什么是机器视觉.pptx",
+      "outputs": [
+        {
+          "path": "out\\online_course\\01_什么是机器视觉\\01-什么是机器视觉.pptx",
+          "sha256": "6fca49083899887e6944a4d657cfe88241ee20829301e21214b564cce542ad83"
+        }
+      ],
+      "source_sha256": "6fca49083899887e6944a4d657cfe88241ee20829301e21214b564cce542ad83",
+      "source_matches_output": true,
+      "protect_from_regeneration": true,
+      "manual_edits": "已确认（用户调整版式）",
+      "manual_review": "用户确认可输出（2026-11-14）",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [
+        "out\\online_course\\01_什么是机器视觉"
+      ],
+      "notes": "用户已手工调整版式，必须保留；P4已局部替换为GIF。"
+    },
+    "02": {
+      "status": "已输出",
+      "source": "draft\\online_course\\02\\02-机器视觉的发展与产业现状.pptx",
+      "outputs": [
+        {
+          "path": "out\\online_course\\02_机器视觉的发展与产业现状\\02-机器视觉的发展与产业现状.pptx",
+          "sha256": "8341c58a67ec8982e0c5789a613ca989d0b096a9a071c780529d3e6cf144b9bf"
+        }
+      ],
+      "source_sha256": "8341c58a67ec8982e0c5789a613ca989d0b096a9a071c780529d3e6cf144b9bf",
+      "source_matches_output": true,
+      "protect_from_regeneration": true,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "用户确认可输出（2026-11-14）",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [
+        "out\\online_course\\02_机器视觉的发展与产业现状"
+      ],
+      "notes": ""
+    },
+    "03": {
+      "status": "已输出",
+      "source": "draft\\online_course\\03\\03-典型应用（一）：工业制造.pptx",
+      "outputs": [
+        {
+          "path": "out\\online_course\\03_典型应用（一）：工业制造\\03-典型应用（一）：工业制造.pptx",
+          "sha256": "955daf203f5dca94b4112a2d88cfd9abb7856e2234342d0b7299ba49678b22b8"
+        }
+      ],
+      "source_sha256": "955daf203f5dca94b4112a2d88cfd9abb7856e2234342d0b7299ba49678b22b8",
+      "source_matches_output": true,
+      "protect_from_regeneration": true,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "用户确认可输出（2026-11-14）",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [
+        "out\\online_course\\03_典型应用（一）：工业制造"
+      ],
+      "notes": "用户确认P2采用当前静图，取消工厂视频待办；当前版已获准输出。"
+    },
+    "04": {
+      "status": "已输出",
+      "source": "draft\\online_course\\04\\04-典型应用（二）：生活与交通.pptx",
+      "outputs": [
+        {
+          "path": "out\\online_course\\04_典型应用（二）：生活与交通\\04-典型应用（二）：生活与交通.pptx",
+          "sha256": "f5aebd97674559671dd0a177e1ed25930247f79a2be911a58ecc6c02324cd296"
+        }
+      ],
+      "source_sha256": "f5aebd97674559671dd0a177e1ed25930247f79a2be911a58ecc6c02324cd296",
+      "source_matches_output": true,
+      "protect_from_regeneration": true,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "用户确认可输出（2026-11-15，整讲审核通过）",
+      "delivery_hold": false,
+      "withdrawal": {
+        "date": "2026-11-14",
+        "reason": "用户确认04-P6三张学生作品截图尚未提供，撤回输出；补齐并重新确认后再输出。",
+        "original_output": "out\\online_course\\04_典型应用（二）：生活与交通",
+        "preserved_folder": "draft\\withdrawn_deliveries\\20261114_113507\\04_典型应用（二）：生活与交通",
+        "files_sha256": {
+          "04-典型应用（二）：生活与交通.pptx": "70d2becf64941cb77e03062e40df126962692c9e6e0d3e21f3d9e447064a96e4",
+          "交付清单.json": "1b9ce99c1a8661bd011e84b15bde1ab8978f6563fb3e8269fc8f01483e33cc7c",
+          "素材清单.md": "e79144eea39adf1d467d59bae8d1965421f57ae99d0b56e3aec282d636dfb68d",
+          "脚本04.docx": "365ab3d8e62534e1d94a5819136f179af80a79939145d4e567e63489836d09a0",
+          "素材\\动画与视频\\04-p5-rec-智能小车视觉感知.gif": "7b27f2ddf0b129c7244417103857c07dc9fc6cd810335354af0eaa1b1ccb21bd",
+          "素材\\图片\\04-p4-photo-刷脸闸机与扫码支付.png": "85301af4c63b3bb0a093e757fe450890b75ce70ae983217ed3eb99cf2cd7bab1",
+          "素材\\图片\\04-p5-photo-车牌识别与自动驾驶感知.png": "499aaf6a216b8cae00e1dac33a641ce9dfceb1b2193c82a6511125a40257edc3",
+          "素材\\图片\\04-p7-diag-机器识别与人类决策.png": "39c4ceefa6ef7354dcf865b1845f14ea8de63402728c7da2aa5436c77bdf3a0b"
+        }
+      },
+      "packages": [
+        "out\\online_course\\04_典型应用（二）：生活与交通"
+      ],
+      "notes": "2026-11-15 用户确认整讲审核通过并要求输出。P6已采用答题卡识别、垃圾分类、坐姿监测三张实际运行截图，替代原视频要求；P5保留车牌图片及智能小车实测GIF。当前批准源课件直接复制交付，禁止整讲重建。"
+    },
+    "05": {
+      "status": "已输出",
+      "source": "draft\\online_course\\05\\05-机器视觉系统的组成.pptx",
+      "outputs": [
+        {
+          "path": "out\\online_course\\05_机器视觉系统的组成\\05-机器视觉系统的组成.pptx",
+          "sha256": "2163fdc75a5592b847fd82579e4cf78bb988dec04c835c80adae6e98cac602e4"
+        }
+      ],
+      "source_sha256": "2163fdc75a5592b847fd82579e4cf78bb988dec04c835c80adae6e98cac602e4",
+      "source_matches_output": true,
+      "protect_from_regeneration": true,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "用户确认可输出（2026-11-14）：第05讲没有问题",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [
+        "out\\online_course\\05_机器视觉系统的组成"
+      ],
+      "notes": "用户确认第05讲无问题，批准输出；P8已嵌入真正GIF，整理独立交付包。"
+    },
+    "06": {
+      "status": "已输出",
+      "source": "draft\\online_course\\06\\06-开发环境搭建.pptx",
+      "outputs": [
+        {
+          "path": "out\\online_course\\06_开发环境搭建\\06-开发环境搭建.pptx",
+          "sha256": "7647aaac24ac162c0e2cb701f89e4555bd05b9259be96525be49581cf8f8bcce"
+        }
+      ],
+      "source_sha256": "7647aaac24ac162c0e2cb701f89e4555bd05b9259be96525be49581cf8f8bcce",
+      "source_matches_output": true,
+      "protect_from_regeneration": true,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "用户确认可输出（2026-11-14）",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [
+        "out\\online_course\\06_开发环境搭建"
+      ],
+      "notes": "P4/P8已局部接入；演示录屏已按用户确认登记。"
+    },
+    "07": {
+      "status": "已输出",
+      "source": "draft\\online_course\\07\\07-第一个视觉程序.pptx",
+      "outputs": [
+        {
+          "path": "out\\online_course\\07_第一个视觉程序\\07-第一个视觉程序.pptx",
+          "sha256": "af30c46ef29ef0384134b60149ea454100c2984e37f9e5c776efe848ff685e3c"
+        }
+      ],
+      "source_sha256": "af30c46ef29ef0384134b60149ea454100c2984e37f9e5c776efe848ff685e3c",
+      "source_matches_output": true,
+      "protect_from_regeneration": true,
+      "manual_edits": "已确认：P4代码高亮及中文注释（用户手工完成）",
+      "manual_review": "用户确认可输出（2026-11-14）",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [
+        "out\\online_course\\07_第一个视觉程序"
+      ],
+      "notes": "用户确认P4代码高亮及中文注释已手工完成；P7截图、P5/P6录屏已齐；已获准输出，禁止整讲重建。"
+    },
+    "08": {
+      "status": "已输出",
+      "source": "draft\\online_course\\08\\08-像素与数字图像.pptx",
+      "outputs": [
+        {
+          "path": "out\\online_course\\08_像素与数字图像\\08-像素与数字图像.pptx",
+          "sha256": "07efd9e28a9b428db36ff197c46f83f60f5b37e46d85b26231e4cf231d9148fa"
+        }
+      ],
+      "source_sha256": "07efd9e28a9b428db36ff197c46f83f60f5b37e46d85b26231e4cf231d9148fa",
+      "source_matches_output": true,
+      "protect_from_regeneration": true,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "用户确认可输出（2026-11-15，P5动图通过并明确要求更新输出）",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [
+        "out\\online_course\\08_像素与数字图像"
+      ],
+      "notes": "P5原样嵌入照片放大到像素方格GIF，用户已审核并批准更新输出；其他9页及全部解说备注保持原样。"
+    },
+    "09": {
+      "status": "已输出",
+      "source": "draft\\online_course\\09\\09-分辨率与图像文件格式.pptx",
+      "outputs": [
+        {
+          "path": "out\\online_course\\09_分辨率与图像文件格式\\09-分辨率与图像文件格式.pptx",
+          "sha256": "9c0defa453ec290244aa77ea7e04ef5cb639d47b7b99212498e6aa126640dfba"
+        }
+      ],
+      "source_sha256": "9c0defa453ec290244aa77ea7e04ef5cb639d47b7b99212498e6aa126640dfba",
+      "source_matches_output": true,
+      "protect_from_regeneration": true,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "已通过（2026-11-15，用户确认整讲审核通过）",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [
+        "out\\online_course\\09_分辨率与图像文件格式"
+      ],
+      "notes": "2026-11-15 用户确认09讲整讲审核通过；当前源PPT原样复制为逐讲交付包，不重新生成。"
+    },
+    "10": {
+      "status": "已输出",
+      "source": "draft\\online_course\\10\\10-颜色模型与通道.pptx",
+      "outputs": [
+        {
+          "path": "out\\online_course\\10_颜色模型与通道\\10-颜色模型与通道.pptx",
+          "sha256": "230711f0127b71a2b6fd804c04d8f87cc32096bfe0155b24f3ef9628d6663349"
+        }
+      ],
+      "source_sha256": "230711f0127b71a2b6fd804c04d8f87cc32096bfe0155b24f3ef9628d6663349",
+      "source_matches_output": true,
+      "protect_from_regeneration": true,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "用户确认可输出（2026-11-15，P5动图更新后获准输出）",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [
+        "out\\online_course\\10_颜色模型与通道"
+      ],
+      "notes": "2026-11-15 用户批准当前版输出。P5原样嵌入已通过的RGB三张数字表GIF，采用居中大图布局；现有源PPT及单讲Word原样复制，禁止整讲重建。"
+    },
+    "11": {
+      "status": "未输出",
+      "source": "draft\\online_course\\11\\11-NumPy 数组：图像的数据容器.pptx",
+      "outputs": [],
+      "source_sha256": "80ee0f97d598d1d3bfebe8690b17e3a0acc1e2c9ca2c3f9289b642b6969c23b7",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "12": {
+      "status": "未输出",
+      "source": "draft\\online_course\\12\\12-图像的读取、显示与保存.pptx",
+      "outputs": [],
+      "source_sha256": "2a06b3316565b5d49028b7708d47cddc326bba7a92cfc50fdd51a9af0c6f0d6f",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "13": {
+      "status": "未输出",
+      "source": "draft\\online_course\\13\\13-图像的坐标系与身份信息.pptx",
+      "outputs": [],
+      "source_sha256": "327c115f25eb59619c3e90494a1bcbfa916e19ac5f61c012f39177ebaaa4430a",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "14": {
+      "status": "未输出",
+      "source": "draft\\online_course\\14\\14-访问与修改像素.pptx",
+      "outputs": [],
+      "source_sha256": "4adc348ca41a522ee9475d29acdfe58003280466ad1a871aa01600f76000820d",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "15": {
+      "status": "未输出",
+      "source": "draft\\online_course\\15\\15-通道拆分与灰度转换.pptx",
+      "outputs": [],
+      "source_sha256": "50f55dd72f44a09ee67002e54ea59a8c53ea9f55e4fe7646254e785f4571d7a0",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "16": {
+      "status": "未输出",
+      "source": "draft\\online_course\\16\\16-图像的裁剪与缩放.pptx",
+      "outputs": [],
+      "source_sha256": "554f32184ca797b7b5bb0d7a09340c79a36bb011747ea7e48a9af9235796da4e",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "17": {
+      "status": "未输出",
+      "source": "draft\\online_course\\17\\17-图像的翻转与旋转.pptx",
+      "outputs": [],
+      "source_sha256": "9d36d3eeaf5093269d7452a32cfb0e1d4e0e48ca7c8a9178f2739cf1b634f068",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "18": {
+      "status": "未输出",
+      "source": "draft\\online_course\\18\\18-在图像上画图写字.pptx",
+      "outputs": [],
+      "source_sha256": "b2f90da94d9db621f1841e5d8ef5cd2836dde9ec09784efc4558f18b576eacf8",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "19": {
+      "status": "未输出",
+      "source": "draft\\online_course\\19\\19-亮度与对比度调整.pptx",
+      "outputs": [],
+      "source_sha256": "92f213350af50ea9e274511679e157af21632a0227c116fd1d1010245f794c1f",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "20": {
+      "status": "未输出",
+      "source": "draft\\online_course\\20\\20-图像滤波与去噪.pptx",
+      "outputs": [],
+      "source_sha256": "a57f1314c2264fddd28c6c3556f8d4e103e60a1be91371ad1136cf9a73105260",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "21": {
+      "status": "未输出",
+      "source": "draft\\online_course\\21\\21-阈值分割与二值化.pptx",
+      "outputs": [],
+      "source_sha256": "de2aaac8709d4de0dda6944d164dd96a1f5e7c6d05fa849e53a7e4758ae19ad7",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "22": {
+      "status": "未输出",
+      "source": "draft\\online_course\\22\\22-形态学操作.pptx",
+      "outputs": [],
+      "source_sha256": "ac4da37d56ab0d6793639718718cc02b11eedf251a6327b9d819240bccc991c5",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "23": {
+      "status": "未输出",
+      "source": "draft\\online_course\\23\\23-边缘检测.pptx",
+      "outputs": [],
+      "source_sha256": "0054242c28727b803b2bf03fb53e0dd9147dec9359e59e85026df4c392f61daf",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "24": {
+      "status": "未输出",
+      "source": "draft\\online_course\\24\\24-图像直方图与均衡化.pptx",
+      "outputs": [],
+      "source_sha256": "14ed03b807cba5601e11439f9580ecbaaec0a34647c39e8ca35d11791e3c4eaf",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "25": {
+      "status": "未输出",
+      "source": "draft\\online_course\\25\\25-透视变换：文档扫描矫正.pptx",
+      "outputs": [],
+      "source_sha256": "4476b4d97e850db425ccd75e67d4ef19a8a16fe0bafa62b1dc2de3c976fdca81",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "26": {
+      "status": "未输出",
+      "source": "draft\\online_course\\26\\26-HSV 颜色空间.pptx",
+      "outputs": [],
+      "source_sha256": "7e10482f6ddb58763a258ce1e0d9adab9e7c0cd4476a27d8eff1ec29650ad0b5",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "27": {
+      "status": "未输出",
+      "source": "draft\\online_course\\27\\27-颜色提取与掩膜.pptx",
+      "outputs": [],
+      "source_sha256": "79c5a07da726c5a76ea1a604ac0243bdcc097dc6e62a373219d06503b7025495",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "28": {
+      "status": "未输出",
+      "source": "draft\\online_course\\28\\28-轮廓的查找与绘制.pptx",
+      "outputs": [],
+      "source_sha256": "6cacb1e4e554c1b08cc126a4969baa8de83ae492b74ebb219e5f1d4b1a1a7c60",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "29": {
+      "status": "未输出",
+      "source": "draft\\online_course\\29\\29-轮廓特征：面积、周长与外接框.pptx",
+      "outputs": [],
+      "source_sha256": "4fa4bd348ef51dae8652762e951f2ee5d875a9b9dfa15082525ab410f556b895",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "30": {
+      "status": "未输出",
+      "source": "draft\\online_course\\30\\30-形状识别.pptx",
+      "outputs": [],
+      "source_sha256": "d760ad7fc283eba4e3f80cc74739b1ff2cd89427d627b652cfc2236de0f10244",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "31": {
+      "status": "未输出",
+      "source": "draft\\online_course\\31\\31-模板匹配.pptx",
+      "outputs": [],
+      "source_sha256": "89731a85ec4cac04743df1cd0f1013357157365ad167973c3e14a6cb50ef1854",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "32": {
+      "status": "未输出",
+      "source": "draft\\online_course\\32\\32-二维码的生成与识别.pptx",
+      "outputs": [],
+      "source_sha256": "48e0a896af919d22ad87a33acdff7dc3e8ea32e6065d4afa70a261a57a0aa2d5",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "33": {
+      "status": "未输出",
+      "source": "draft\\online_course\\33\\33-单元案例：颜色形状分拣（图片版）.pptx",
+      "outputs": [],
+      "source_sha256": "65100d21a2ebf16649fbb9ea69905373c3343cc620db507a6c1de159fe602bde",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "34": {
+      "status": "未输出",
+      "source": "draft\\online_course\\34\\34-单元案例：答题卡识别（单张）.pptx",
+      "outputs": [],
+      "source_sha256": "184f902e84cc7a8d1f2775e7383424e51001ab48a0d5c7e13254395f3962b97e",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "35": {
+      "status": "未输出",
+      "source": "draft\\online_course\\35\\35-单元案例：批量阅卷与成绩导出.pptx",
+      "outputs": [],
+      "source_sha256": "ec4e3331cf94571bc319de55addd97aeed3083c72420aa5c7e2747592ecbad8d",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "36": {
+      "status": "未输出",
+      "source": "draft\\online_course\\36\\36-打开摄像头与视频文件.pptx",
+      "outputs": [],
+      "source_sha256": "cacc9e0b300415c4f8d9a070e6594d421cbbd3b980b7801eacdb31bb79b083bf",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "37": {
+      "status": "未输出",
+      "source": "draft\\online_course\\37\\37-视频的逐帧处理.pptx",
+      "outputs": [],
+      "source_sha256": "4c65ef24bbcfb5f610b58353c60b7f6012b60ff31e86eb3d2ff1843db4e3475b",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "38": {
+      "status": "未输出",
+      "source": "draft\\online_course\\38\\38-键盘交互与实时特效.pptx",
+      "outputs": [],
+      "source_sha256": "ffdd6933267ddb02840207bc34b76951b1ec755867ebe4594351d3eee40e66a2",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "39": {
+      "status": "未输出",
+      "source": "draft\\online_course\\39\\39-帧率计算与性能观察.pptx",
+      "outputs": [],
+      "source_sha256": "d0fced559c67a6272973bbbe6eb4304dc9f2e68e5ef6c5c289c092ec919eb89e",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "40": {
+      "status": "未输出",
+      "source": "draft\\online_course\\40\\40-视频录制与截图保存.pptx",
+      "outputs": [],
+      "source_sha256": "2e280f071a07437a5aae059e0a66ad055b1d559bce2d2b8c49a80bfe25ea41f0",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "41": {
+      "status": "未输出",
+      "source": "draft\\online_course\\41\\41-单元案例：实时颜色追踪.pptx",
+      "outputs": [],
+      "source_sha256": "42603236db207c014d36ca7ad62de9b6797eeac71da4e539ad88e0c3ff2ac974",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "42": {
+      "status": "未输出",
+      "source": "draft\\online_course\\42\\42-预训练模型与 MediaPipe.pptx",
+      "outputs": [],
+      "source_sha256": "ab4e2b093f9e54aa1aff70726b6b09128be283ac2f2a36d23b07141ea20f9fae",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "43": {
+      "status": "未输出",
+      "source": "draft\\online_course\\43\\43-人脸检测.pptx",
+      "outputs": [],
+      "source_sha256": "0f4a1df5a9c0bd90e7b5b961a0e7a5217b82d22ee154b948c21991c1e64d2d50",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "44": {
+      "status": "未输出",
+      "source": "draft\\online_course\\44\\44-人脸关键点与疲劳检测.pptx",
+      "outputs": [],
+      "source_sha256": "ad94d749a9dead8887ea9b09d511bb9c96b7f4e5cc9913813dccc16315ce7583",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "45": {
+      "status": "未输出",
+      "source": "draft\\online_course\\45\\45-人脸识别：认出是谁.pptx",
+      "outputs": [],
+      "source_sha256": "9d32257987c0396f10fd8b45cc85e8d5e097c1ddc794f40165cd2ac867be55e2",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "46": {
+      "status": "未输出",
+      "source": "draft\\online_course\\46\\46-手部关键点检测.pptx",
+      "outputs": [],
+      "source_sha256": "21e488b4e7726a0f049ac85191729080489007e2e6e408f0755aead620608eea",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "47": {
+      "status": "未输出",
+      "source": "draft\\online_course\\47\\47-人体姿态估计.pptx",
+      "outputs": [],
+      "source_sha256": "f6b62bc847a6a7cb474205ee6a76c3b6b46f19e0bf21391355d430c541403dc8",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "48": {
+      "status": "未输出",
+      "source": "draft\\online_course\\48\\48-单元案例：石头剪刀布猜拳游戏.pptx",
+      "outputs": [],
+      "source_sha256": "eb16cfd2f3ced3ceafef86e1d47e8708cadf382cc2f1d27f74c27d85ff07af14",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "49": {
+      "status": "未输出",
+      "source": "draft\\online_course\\49\\49-单元案例：坐姿健康监测.pptx",
+      "outputs": [],
+      "source_sha256": "fd230c16080b86eed36386aec54015dfe217131a00e7b1c0756149adc077abb4",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "50": {
+      "status": "未输出",
+      "source": "draft\\online_course\\50\\50-深度学习入门.pptx",
+      "outputs": [],
+      "source_sha256": "91fd7266c083809bcb183c8bdeb6c33e1f9a01558589e7f985f842636bea62f2",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "51": {
+      "status": "未输出",
+      "source": "draft\\online_course\\51\\51-分类、检测与分割.pptx",
+      "outputs": [],
+      "source_sha256": "4a6d845dcf6fb8aebf357e2fcc71bf2e1a60970d97aebfb92e880dd918e8e746",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "52": {
+      "status": "未输出",
+      "source": "draft\\online_course\\52\\52-认识 YOLO 与环境安装.pptx",
+      "outputs": [],
+      "source_sha256": "6604002a0b3d98fdaeea28c2dbfbf165042382d457c8cc2477302260652b86a1",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "53": {
+      "status": "未输出",
+      "source": "draft\\online_course\\53\\53-图片目标检测与结果解读.pptx",
+      "outputs": [],
+      "source_sha256": "ec97e471a50009c8c56263752bcb4310a2a7d1a5c8323dce7b591072c9a29569",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "54": {
+      "status": "未输出",
+      "source": "draft\\online_course\\54\\54-实时检测与结果筛选.pptx",
+      "outputs": [],
+      "source_sha256": "128d51109dcd85b18573e6e39f330510ea1d26ada6cc1fc7f6ffabe970053a8b",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "55": {
+      "status": "未输出",
+      "source": "draft\\online_course\\55\\55-目标跟踪与越线计数.pptx",
+      "outputs": [],
+      "source_sha256": "142c357aaab2ba754080756fd943dcb330dc3383343ad79ec31663ae749c141b",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "56": {
+      "status": "未输出",
+      "source": "draft\\online_course\\56\\56-数据采集与标注.pptx",
+      "outputs": [],
+      "source_sha256": "5eedbb864228f6e7f4f330cefd1b5081cadc6d2b6ce2a09d22ac998b4818744d",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "57": {
+      "status": "未输出",
+      "source": "draft\\online_course\\57\\57-标注格式转换与数据集整理.pptx",
+      "outputs": [],
+      "source_sha256": "cae09388b02c383d1fae0c3c00864e9e38137c4432038ec5110112ff493fb74b",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "58": {
+      "status": "未输出",
+      "source": "draft\\online_course\\58\\58-训练自己的 YOLO 模型.pptx",
+      "outputs": [],
+      "source_sha256": "10e62994e3d93258c8e45187e41eeb75cec776089afeaa45f2cc6da8da67ddbd",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "59": {
+      "status": "未输出",
+      "source": "draft\\online_course\\59\\59-模型评估：看懂混淆矩阵与 PR 曲线.pptx",
+      "outputs": [],
+      "source_sha256": "b441a29dd47224536a9d7583056419ff6dca6179c4a27d265ed86efe29eecb8c",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    },
+    "60": {
+      "status": "未输出",
+      "source": "draft\\online_course\\60\\60-单元案例：安全帽佩戴检测.pptx",
+      "outputs": [],
+      "source_sha256": "4661bc492830e0e641afc98a7289d3ec6f418b6db6f21782db507994cbf7db4a",
+      "source_matches_output": null,
+      "protect_from_regeneration": false,
+      "manual_edits": "未确认；按可能含手工修改保护",
+      "manual_review": "待用户整讲校验确认",
+      "delivery_hold": false,
+      "withdrawal": null,
+      "packages": [],
+      "notes": ""
+    }
+  }
+}
