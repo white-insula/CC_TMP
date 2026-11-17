@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-16",
+  "lessons": [
+    {
+      "lesson": 36,
+      "path": "draft/online_course/36/content.py",
+      "sha256": "a96d3fad39aadb161497389db59a13fb050e5a08f2a2450670a03366c8225721",
+      "local_recording_directory_exists": false
+    },
+    {
+      "lesson": 37,
+      "path": "draft/online_course/37/content.py",
+      "sha256": "2baceceff979d3b60122a0d0dad547dc2e9ece2eec3e576bbed178e0ca2bdac4",
+      "local_recording_directory_exists": false
+    },
+    {
+      "lesson": 38,
+      "path": "draft/online_course/38/content.py",
+      "sha256": "5e001e413d84becee3c629b970c606152256ee8934b63e79fc0769eae5b7d969",
+      "local_recording_directory_exists": false
+    },
+    {
+      "lesson": 39,
+      "path": "draft/online_course/39/content.py",
+      "sha256": "05618405ce0a4bf6c7596b30f445f166d1b93991e435c7f17aebec5fb973caef",
+      "local_recording_directory_exists": false
+    },
+    {
+      "lesson": 40,
+      "path": "draft/online_course/40/content.py",
+      "sha256": "98e0f44e239047e2177a134987b57a288e4f63fffa1a22f032e32ddb11dd6244",
+      "local_recording_directory_exists": false
+    }
+  ],
+  "local_build_m5_exists": false,
+  "note": "Real camera, production footage, Windows screenshots and user recordings are not uploaded. Synthetic frame tests are cloud-only."
+}
