@@ -1,0 +1,110 @@
+{
+ "说明": "TTS 实际输入。spoken 为送入合成器的文字（为发音调整空格、读法），display 为字幕显示文字。正式讲解词见 texts/narration_original.txt，本文件不修改正式脚本。",
+ "voice": {
+  "engine": "sherpa-onnx OfflineTts (VITS)",
+  "model": "vits-melo-tts-zh_en（MeloTTS 中英混合，单一女声 sid=0）",
+  "noise_scale": 0.3,
+  "noise_scale_w": 0.5
+ },
+ "sentence_gap_seconds": 0.45,
+ "sample": {
+  "file": "voice_sample",
+  "note": "试音小样：与正文分开，词句不是 11-P6 正文",
+  "sentences": [
+   {
+    "spoken": "这是一段配音试音，不是正式讲解。",
+    "display": "（试音）这是一段配音试音，不是正式讲解。"
+   },
+   {
+    "spoken": "用 numpy 的 N P 点 zeros，可以生成一个全零数组。",
+    "display": "用 NumPy 的 np.zeros，可以生成一个全零数组。"
+   },
+   {
+    "spoken": "括号里的三个数，三百、四百和三，分别表示高、宽和通道数，数据类型写 U int 八。",
+    "display": "括号里的三个数 300、400 和 3，分别表示高、宽和通道数，数据类型写 uint8。"
+   },
+   {
+    "spoken": "最后用 imshow 显示，打印 D type，结果是 U int 八。",
+    "display": "最后用 imshow 显示，打印 dtype，结果是 uint8。"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "id": 1,
+   "start": 2.0,
+   "end_before": 23.5,
+   "sentences": [
+    {
+     "spoken": "下面动手。",
+     "display": "下面动手。"
+    },
+    {
+     "spoken": "新建一个文件 create，下划线，I M G，点 P Y。",
+     "display": "新建一个文件 create_img.py。"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 24.0,
+   "end_before": 34.5,
+   "sentences": [
+    {
+     "spoken": "先导入 C V 二，和 numpy。",
+     "display": "先导入 cv2 和 numpy。"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 35.0,
+   "end_before": 60.5,
+   "sentences": [
+    {
+     "spoken": "然后输入 I M G，等于 N P 点 zeros。",
+     "display": "然后输入 img = np.zeros。"
+    },
+    {
+     "spoken": "括号里写高三百、宽四百、通道三，再指定数据类型是 U int 八。",
+     "display": "括号里写高 300、宽 400、通道 3，再指定数据类型是 uint8。"
+    },
+    {
+     "spoken": "这里 zeros 的意思是全部填零，而零就是黑色，所以我们得到了一张全黑的图。",
+     "display": "这里 zeros 的意思是全部填零，而零就是黑色，所以我们得到了一张全黑的图。"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 61.0,
+   "end_before": 95.5,
+   "sentences": [
+    {
+     "spoken": "打印一下 type，显示是 N D array，说明它就是 numpy 的数组。",
+     "display": "打印一下 type，显示是 ndarray，说明它就是 NumPy 的数组。"
+    },
+    {
+     "spoken": "再打印 shape，和 D type，分别是三百、四百、三，和 U int 八。",
+     "display": "再打印 shape 和 dtype，分别是 (300, 400, 3) 和 uint8。"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 96.0,
+   "end_before": 114.367,
+   "sentences": [
+    {
+     "spoken": "最后用 imshow 显示出来。",
+     "display": "最后用 imshow 显示出来。"
+    },
+    {
+     "spoken": "你会看到一个高三百、宽四百的黑色窗口。",
+     "display": "你会看到一个高 300、宽 400 的黑色窗口。"
+    }
+   ]
+  }
+ ],
+ "total_seconds": 114.866633
+}

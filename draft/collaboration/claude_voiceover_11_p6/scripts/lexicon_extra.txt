@@ -1,0 +1,3 @@
+numpy n ah m p ay 7 9 7 7 8
+int ih n t 9 7 7
+imshow ih m sh ow 9 7 7 9

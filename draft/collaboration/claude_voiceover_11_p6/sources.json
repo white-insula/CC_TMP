@@ -1,0 +1,34 @@
+{
+  "说明": "11-P6 云端配音候选使用的软件、模型与许可。没有克隆任何人的声音，没有上传用户音视频，没有使用付费服务。日期 2026-11-17。",
+  "tts": {
+    "engine": {"name": "sherpa-onnx", "version": "2.0.1", "source": "PyPI", "license": "Apache-2.0（k2-fsa/sherpa-onnx）"},
+    "model": {
+      "name": "vits-melo-tts-zh_en（MeloTTS 中英混合，sherpa-onnx 转换版）",
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-melo-tts-zh_en.tar.bz2",
+      "sha256": "e58351ed7149f290a54534538badd4077cdbe6fddc964b24d0bee870415d1514",
+      "bytes": 167006755,
+      "upstream": "https://github.com/myshell-ai/MeloTTS",
+      "license": "MIT（模型包内 LICENSE：Copyright (c) 2024 MyShell.ai）",
+      "voice": "模型内置单一普通话女声（sid 0），模型包 README：Chinese+English 模型只有一个女声",
+      "uncertainty": "模型包内未说明该女声训练数据的来源与授权；用于公开发布的课程配音前，需核实 MeloTTS 官方关于训练数据及商用的说明（待核实）"
+    },
+    "parameters": {"speed": 1.0, "noise_scale": 0.3, "noise_scale_w": 0.5, "sentence_gap_seconds": 0.45,
+                   "lexicon_additions": "scripts/lexicon_extra.txt（numpy、int、imshow 三个读法）",
+                   "loudness": "全部语音统一增益，语音 RMS 目标 -20 dBFS、峰值不超过 -1.5 dBFS",
+                   "output": "模型 44.1 kHz → scipy resample_poly 转 48 kHz 单声道 16 位；MP3 由 ffmpeg libmp3lame 128 kbps"}
+  },
+  "check_only_models": {
+    "说明": "仅在云端临时目录用于机器转写核对，未分发、未提交到仓库",
+    "paraformer": {"name": "sherpa-onnx-paraformer-zh-small-2024-03-09", "sha256_tar": "da92b3db5218c5be53aad53e57d1b6e63e7fc98a0e054fbdd6dbe18e9c6b1450"},
+    "sensevoice": {"name": "sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17", "sha256_tar": "f6b2a72ebcb1ac7a764d4cfccd886e6bcb2a95c4657c2199d0ba95ed4b9ea71a", "note": "压缩包约 1 GB，比预期大，下载后已删除压缩包，仅保留在云端临时目录"}
+  },
+  "not_used": [
+    {"name": "Microsoft Edge 在线语音（edge-tts 7.3.1）", "reason": "环境网络策略拒绝 speech.platform.bing.com（代理 403）；该浏览器朗读接口用于课程配音的条款不明，未申请开放"},
+    {"name": "Hugging Face 托管模型", "reason": "代理返回 403"}
+  ],
+  "inputs": {
+    "narration_original": "texts/narration_original.txt（复制自 context/voiceover_11_p6/，Codex 已与单讲归档 Word 核对；Claude 未看过 Word/PDF）",
+    "timing_draft": "context/voiceover_11_p6/timing_draft.json（粗略起点，非逐帧）",
+    "tts_input": "scripts/tts_input.json、texts/tts_input_spoken.txt"
+  }
+}

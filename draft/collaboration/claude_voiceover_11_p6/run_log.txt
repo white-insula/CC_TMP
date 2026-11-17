@@ -1,0 +1,76 @@
+运行时间(UTC): 2026-11-17 08:51:17
+Python 3.13.18 | sherpa-onnx 2.0.1 | numpy 2.5.3 | scipy 1.18.1 | soundfile 0.14.0
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+[合成]
+追加读法词条： ['imshow', 'int', 'numpy']
+噪声参数 noise_scale=0.3，noise_scale_w=0.5（VITS 采样有随机性，每次合成略有差异）
+统一增益 +7.64 dB
+试音小样 voice_sample.wav：18.44 秒
+第 1 段：2.0s 起，时长 5.43s，止于 7.43s，距下一段 16.07s，语速 1.0
+第 2 段：24.0s 起，时长 2.20s，止于 26.20s，距下一段 8.30s，语速 1.0
+第 3 段：35.0s 起，时长 14.61s，止于 49.61s，距下一段 10.89s，语速 1.0
+第 4 段：61.0s 起，时长 9.37s，止于 70.37s，距下一段 25.13s，语速 1.0
+第 5 段：96.0s 起，时长 5.42s，止于 101.42s，距下一段 12.95s，语速 1.0
+完整音轨 narration.wav：5513598 采样 = 114.866625 秒（目标 114.866633）
+字幕 subtitle.srt：10 条（句级，时间取自实际合成音频）
+[机器转写核对：paraformer-zh-small（不是人工试听）]
+segment_01.wav：下面动手新建一个文件 create 下划线 hamg 眼 py
+segment_02.wav：先导入 c v 二问案派
+segment_03.wav：然后输入 m g 等于 m p 点 zeroes 括号里写高三百宽四百通道三带指定数据类型是用 it 八这里 zero zero 的的思是全部填填而零就是黑色所以我们得到了一张全黑的图
+segment_04.wav：打印一下 type 显示是 and diary 说明它就是呢派的数组再打印 sheep 和 detype 分别是三百四百三和 yint 八
+segment_05.wav：最后用 im 收显示出来你会看到一个高三百宽四百的黑色窗口
+voice_sample.wav：这是一段配音是音不是正式讲解 and p 点 zero es 可以生成一个全民数组括号里的三个数三百四百和三分别表示高宽和通道数数据类型写用 in 最后用 initial 显示打印 da 结果是用 int 八
+[机器转写核对：SenseVoice（不是人工试听）]
+segment_01.wav：下面动手新建一个文件 create 下划线 m g and p y
+segment_02.wav：先倒入 c v二河南派
+segment_03.wav：然后输入 m g 等于 m p 点 zero 括号里写高三百宽四百通道三在指定数据类型是 unit八这里 zero 的意思是全部填零而零就是黑色所以我们得到了一张全黑的图
+segment_04.wav：打印一下太 显示是 any 注明它就是 non派的数组在打印 shape 和 the type 分别是三百四百三和 八
+segment_05.wav：最后用 in收显示出来你会看到一个高三百宽四百的黑色窗口
+voice_sample.wav：这是一段配音试音不是正式讲解 the ipad m p 点 zero 可以生成一个全零数组括号里的三个数三百四百和三分别表示高宽和通道数数据类型写 unit八最后用 initial 显示 i in de type 结果是 unit 八
+[字幕文字更新]
+字幕 display 文字改为与实际朗读一致（rebuild_srt.py），时间不变，音频未重新合成
+[技术核对]
+文件解码与基本参数：
+  narration.mp3: mp3 48000 Hz 1 声道 114.912 秒 1839021 字节
+  narration.wav: pcm_s16le 48000 Hz 1 声道 114.867 秒 11027240 字节；峰值 -1.9 dBFS，语音 RMS -19.4 dBFS
+  segment_01.wav: pcm_s16le 48000 Hz 1 声道 5.432 秒 521494 字节；峰值 -8.0 dBFS，语音 RMS -21.4 dBFS
+  segment_02.wav: pcm_s16le 48000 Hz 1 声道 2.197 秒 210968 字节；峰值 -9.2 dBFS，语音 RMS -21.4 dBFS
+  segment_03.wav: pcm_s16le 48000 Hz 1 声道 14.610 秒 1402648 字节；峰值 -2.4 dBFS，语音 RMS -19.5 dBFS
+  segment_04.wav: pcm_s16le 48000 Hz 1 声道 9.367 秒 899248 字节；峰值 -8.0 dBFS，语音 RMS -21.9 dBFS
+  segment_05.wav: pcm_s16le 48000 Hz 1 声道 5.418 秒 520162 字节；峰值 -1.9 dBFS，语音 RMS -16.1 dBFS
+  voice_sample.mp3: mp3 48000 Hz 1 声道 18.480 秒 296109 字节
+  voice_sample.wav: pcm_s16le 48000 Hz 1 声道 18.437 秒 1769950 字节；峰值 -6.1 dBFS，语音 RMS -20.8 dBFS
+完整音轨：5513598 采样，114.866625 秒（目标 114.866633 秒，差 8.0 微秒，小于 1 个采样）
+声明段之外的非零采样数：0
+  第 1 段：2.00—7.43 秒（窗口至 23.5 秒，余 16.07 秒），与单段文件逐样本一致：True
+  第 2 段：24.00—26.20 秒（窗口至 34.5 秒，余 8.30 秒），与单段文件逐样本一致：True
+  第 3 段：35.00—49.61 秒（窗口至 60.5 秒，余 10.89 秒），与单段文件逐样本一致：True
+  第 4 段：61.00—70.37 秒（窗口至 95.5 秒，余 25.13 秒），与单段文件逐样本一致：True
+  第 5 段：96.00—101.42 秒（窗口至 114.367 秒，余 12.95 秒），与单段文件逐样本一致：True
+各段无越界、无重叠
+字幕 10 条，句级，时间取自 timing_actual.json
+SHA256（完整）：
+  README.md  2007 B  05ead26a948344509e6cbe7ffd6ad654486c3f3e734354e61ab62783e2d17358
+  review.md  6667 B  cb3d5cb341138b5616d63d9e92f8d0375c54a1c7c5bf5dbcdc78ad49afdeea30
+  sources.json  2814 B  f53a05db5b8c7dcbb3084ea830f17de631d26162908664d6d776464a4a7389ee
+  subtitle.srt  850 B  e94e2c9ef5cfaee1568cfa4098b3761312de48a6230be6da55a20932d6dfe7d2
+  timing_actual.json  1901 B  d1e7e856ce2830c0633acff62dc8f326fc1cfb7e7508162c455bf32c0644b5c7
+  audio/narration.mp3  1839021 B  ed5a48dd37aa01f2e061d8fbb986c5329bca75e2d7ab0737d845f901da89bdbd
+  audio/narration.wav  11027240 B  ffef920421987f6fbe5b8356a40e303e6ba3a70464e31058e72a1e3f84d34fc5
+  audio/segment_01.wav  521494 B  8c2938d5a5b10d28557e599cc4effec33eb9e0010e1ce6f2c92fb1ae83f9ae1b
+  audio/segment_02.wav  210968 B  04d95b1e55ba16d8fceb219c7fb907b96e5b9ca5fc8d69e1948d048cd3716c2d
+  audio/segment_03.wav  1402648 B  deb92a5b47a6a710f97ae3ec5c1feeb5a7409f786381524f95f65bdd6c74b118
+  audio/segment_04.wav  899248 B  f578fb3547cc54e6e69a40dcfc416cfff7d86ef8442018e685ff4f7775c7c1c8
+  audio/segment_05.wav  520162 B  7336feb3d325dcef0c2af7a7a7088eddb9c07e552e062283e0541620361a935a
+  audio/voice_sample.mp3  296109 B  a240c1b32ac5e9c6a75d0f7e346633e3d18d0727786baf13f296e088b7919315
+  audio/voice_sample.wav  1769950 B  44b0fd448550af9087f49f58ef7fc0644f1be05036afad65fe83917868be773a
+  scripts/asr_check.py  1667 B  1890d2b022ee228c75319d6cd6f4d2b764271bc77ae86b9ad8a82a8730c32f36
+  scripts/get_model.sh  628 B  dc935a9ff34d0e5d44e19a63cdd31a1dd4ac3edf56973cdf0cb8068a51b2ec60
+  scripts/lexicon_extra.txt  71 B  c7a1330976e4810b2a191c40d20d851c52896acbf395c90b0f8e66a324046a37
+  scripts/rebuild_srt.py  1095 B  f5159794156e26055495f57927e82ebc78f037515fdd54f14f80d942d1f61ac5
+  scripts/run_all.sh  1197 B  a3f4754731ef58f0e345baeda8bff482089dad6d8d34e2864aef1e9d1b89eb2e
+  scripts/synthesize.py  8889 B  11f0bac8828de5dcd085772f9b9f17c998ca30a16a17a7a1282c5c17c120e5c0
+  scripts/tts_input.json  3400 B  aadf387a5a5a0a4903660ed2c792924a8e1e9965dffcc7caf8aefa4ded757e33
+  scripts/verify.py  3349 B  24c40f5e58b19e420b6d93d51d5093629ab5f4a47cef56bc8f10e77a52f0546a
+  texts/narration_original.txt  546 B  c8d580c5d28d6d602dd00bc3dbb236d29771a0a900823fa3bacd99774aba361c
+  texts/tts_input_spoken.txt  1066 B  307ed4d4730392a33717707245149c4637533f486dc63c52c0f829268cde5c74
