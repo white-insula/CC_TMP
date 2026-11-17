@@ -1,0 +1,74 @@
+运行时间(UTC): 2026-11-17 07:17:31
+Python 3.13.18 | Linux-6.18.44-fc-v553-x86_64-with-glibc2.39
+opencv 4.11.0 | numpy 2.5.3 | Pillow 12.3.0
+中文字体: /usr/share/fonts/truetype/wqy/wqy-zenhei.ttc
+[36] 打开摄像头与视频文件 · P4
+  saved previews/36/36-p4-anim-连续帧翻页动画_候选.gif 48 frames
+  saved previews/36/36-p4-anim-关键帧拼图_审阅用.png 960x2450
+    原始帧 12 张；GIF 48 帧：放慢段每帧 0.7 秒，连播段每帧 0.04 秒（3 遍），总时长 13.52 秒
+[37] 视频的逐帧处理 · P4
+  saved previews/37/37-p4-diag-读处理显示循环图_课堂版_候选.png 1280x720
+  saved previews/37/37-p4-ref-循环结构精确代码_附件.png 1280x762
+
+[录屏候选无界面核对] 主环境
+  退出码 0；详细输出见 previews/recording_checks/run_log_main.txt
+
+[录屏候选无界面核对] 兼容环境 /tmp/claude-0/-home-user-CC-TMP/e3b2806b-216f-5055-9862-35e89a613f9b/scratchpad/venv311/bin/python
+  退出码 0；详细输出见 previews/recording_checks/run_log_compat.txt
+  两个环境输出图哈希一致 7 个，不一致 0 个 []
+
+文件 SHA256（完整）:
+  previews/36/36-p4-anim-关键帧拼图_审阅用.png  455805 B  de1424387f7165399ea8f8e1920546b317c353b2e9a987d427ac4496b39ebb8c
+  previews/36/36-p4-anim-连续帧翻页动画_候选.gif  378994 B  f854aa1ea4e74110850f36c4cf50e4251e05f1f4677feb530cf55a2dcd45219d
+  previews/37/37-p4-diag-读处理显示循环图_课堂版_候选.png  161038 B  9a990a8eba99861b490b85c4635162a63d2e027499a3135b6a08dd3c0a5f3d50
+  previews/37/37-p4-ref-循环结构精确代码_附件.png  199221 B  61f4b4d989aea3423d1183f5e58e53caef68b851fe2ac38db496f91826ef05d5
+  previews/recording_checks/36/36_p7_frame_first.png  72502 B  f0377a226c49f072b035490f3c2aaba6f7cfcca9d6be4bc699788ecdb7d8d04d
+  previews/recording_checks/36/36_synthetic_25fps.avi  143138 B  76f1d13eb066b45aaef17c64104ddea993a9ad4a2a106559a204d04fdb0717c1
+  previews/recording_checks/37/37_binary.png  4164 B  2053f0b55b2fb605aef82d590474c45dc2f3f5b0c9bb72cadb2ade804155bf53
+  previews/recording_checks/37/37_frame.png  34498 B  0d47f189cc75cfa88126d946d702c1e3554a0675b3eae0f83d9e4e1f3bb414e0
+  previews/recording_checks/37/37_gray.png  11886 B  67ca5ed8e27a19f47e0350720fe0e878cb856c48b206ae3ea07fde29048bf7ae
+  previews/recording_checks/37/37_mask.png  1526 B  c77036d380f1ea34a0455474aaa59449337efbc65c9ea9d307a7ccc5c81adbf9
+  previews/recording_checks/37/37_result.png  2462 B  e025a3309a55810b082c850f7fdb8a1d3629fd9dcce08fd479f3397801ec99b7
+  previews/recording_checks/38/38_modes_overlay.png  75972 B  026f0ab5d09972ff7b5d61780cc0068f1953d8ba11c6aabd59eacae51b467143
+  previews/recording_checks/40/40_session/a/20261117_093000.avi  87496 B  75e309bc7ef450b05f378614a1cd6bde11c4c97152c3db3a3e8a25d80f010541
+  previews/recording_checks/40/40_session/a/20261117_093000.jpg  29804 B  2d6167166854eca39b09174880bacf0a0d129e53d4906e6c9d8e51e6b83cf96f
+  previews/recording_checks/40/40_session/a/20261117_093001.avi  22358 B  31b618a608ce32b1e0fc3129b49dcc56cfd78334a2b5cc4488649e3a21a6a4ad
+  previews/recording_checks/40/40_session/b/20261117_093000.avi  63292 B  ce9e76c4545cf302d868429c74a4171d80b1e436a0428c753bfb257ba9ba9e05
+  previews/recording_checks/40/40_session/c/20261117_093000.avi  65480 B  a9636ed030efa30f9c9db48ae8e11f02a25fb7be8ccd6b29142b7a1da49148bc
+  previews/recording_checks/40/40_session/d/20261117_093000_120000.jpg  23214 B  870d2d5246ab9aa97677c19496f464b89308b9590599cd749d83f507e1d6c5df
+  previews/recording_checks/40/40_session/d/20261117_093000_160000.jpg  22843 B  07b0d703c3be867b9c16846bb1b5156f95170f33adde9c1ee3a2d11e6daa6df5
+  previews/recording_checks/40/40_session/exception.avi  22616 B  46ee772e39fa64ac8a3a8e9e4df3f92c87393e43759fb12d44738451a28f9694
+  previews/recording_checks/40/40_session/size_change.avi  9436 B  614ccc107b15d920030b3528c6e29c7ce18b9179b7d8eebedcc8eaec8e487364
+  recording_candidates/36/_path.py  148 B  d4081b07f2d0e84bee242f845bd1d84c122bb2ffd8817881e03debf81ed428f6
+  recording_candidates/36/check_headless.py  3208 B  3c57f9da89527aadb72e8dafb73202e8e65951d10bb0d353f1bb6b1944fd4c63
+  recording_candidates/36/p6_camera.py  1503 B  592bb419eecee3059b7fed249b2a23aa4aff30a89df3ecf4b497e62cc7c78c25
+  recording_candidates/36/p7_play_file.py  1408 B  1e3ddef7c137924cfbf2d15b95a5803d5fde963fd410c9bf0fa52ff02c7ec47e
+  recording_candidates/37/_path.py  148 B  d4081b07f2d0e84bee242f845bd1d84c122bb2ffd8817881e03debf81ed428f6
+  recording_candidates/37/check_headless.py  2745 B  e3358f3b840ce9cf1f1c78c2d869cd9ab54c5a0954f2043e701eb8edcb57f7d5
+  recording_candidates/37/core.py  949 B  7ab398cd2218c4527726eb62dcefc911919034b50bea6856b7b07f274444ea84
+  recording_candidates/37/p5_gray_binary.py  1309 B  5bac3dfaf6a8dbd53007a82b27deb15a776052533bebbec0ba087f219528803b
+  recording_candidates/37/p6_blue.py  1067 B  3f049e72bd41abe0d71fb2c78f9d63454cf1a011713b28f3296c6ad4210955bb
+  recording_candidates/38/_path.py  148 B  d4081b07f2d0e84bee242f845bd1d84c122bb2ffd8817881e03debf81ed428f6
+  recording_candidates/38/check_headless.py  2445 B  f4ac9071f1b512737c12887cd95167a58fc216d20bdd9e4500bd26894f06693b
+  recording_candidates/38/p6_effects.py  1409 B  a6b46739e63d0c00c1563d650223f0e2ad2c896052b557aac866da0896f8f6e6
+  recording_candidates/38/p7_overlay.py  1262 B  d47ae1694a1b81464fd5cdd595c5acd6611c164d88c886f3daf392c8046c9265
+  recording_candidates/39/_path.py  148 B  d4081b07f2d0e84bee242f845bd1d84c122bb2ffd8817881e03debf81ed428f6
+  recording_candidates/39/check_headless.py  3613 B  9b2fd8e29d433d2d2973ff3548e7ae5b505eb07a642aacf44b978527fc65b5e7
+  recording_candidates/39/p6_show_fps.py  1729 B  b4c6d531445243b0d274a30d22dd5c9eae5f0cf93bbbde0fba1053cd02e611af
+  recording_candidates/39/p7_resolution.py  1842 B  d250bef047668d60c151c186abf9cacbfdeb359e40542d611f53cdd776d0108d
+  recording_candidates/40/_path.py  148 B  d4081b07f2d0e84bee242f845bd1d84c122bb2ffd8817881e03debf81ed428f6
+  recording_candidates/40/check_headless.py  5978 B  56ed4dfe42f9e676fc83997d0f618f4f9766eb97ac593d2dcbdc9d5124cc33d3
+  recording_candidates/40/core.py  2600 B  e870b2afd5a774a9caeae85b87219b0daa2a9b822d08b579ee03a77217eef4ce
+  recording_candidates/40/p6_snapshot.py  1096 B  94b47e9db2a5c2d922d3dbb312556d455b3f92bef672efbd88e264493f0a3f45
+  recording_candidates/40/p7_record.py  1460 B  bfe55658b2438cba26e2d64205944a1ee66f9720390207bb2346d2c27fc997ee
+  recording_candidates/README.md  2306 B  3171f4109696b998cfa24dd7a7da36341c44db30d2a88cecdd6e1ea69dcac780
+  recording_candidates/common/__init__.py  86 B  4e795aaaf38fd826af6210d038b79f73382038f92647c6f5539fa1a87b30d0f3
+  recording_candidates/common/effects.py  1781 B  a925e3fea77ee26c8777a9b3154e5a6d962855a22963508a47d8c3bd3d6c93b8
+  recording_candidates/common/fps.py  1677 B  74a305673992014fd0f7d29d500c039617af0e39539bb9311aff7f7d3c823fb1
+  recording_candidates/common/keys.py  398 B  aab7fb99dc6e5e8e95a093ac8cbf6dcd82a8e5233f58667680ae6409d8825e84
+  recording_candidates/common/recorder.py  2830 B  51a0b84b4e36c9783e05c16ae3f6f3307a30be70ce0528037b388166acbf8787
+  recording_candidates/common/sources.py  2394 B  f265502e6eb69e9a04457a960a405d6e942d4dc247ac422ccff6c5a67548287d
+  recording_candidates/common/synth.py  3019 B  1891a494178a069c7ff196fe8c80fde6a04122a2e727b595d423d996a6af6144
+  recording_candidates/make_synthetic_video.py  785 B  3790fca7bde5261a0225947ae4403c9771b4dc69e8058db4b6d4ccb01b2953bd
+  recording_candidates/media/synthetic_test.avi  155984 B  3693ed30235a1f637713fbf1f86b65788323e8f445d481b4d31dfb1feaf7b12b
+  recording_candidates/run_checks.py  2513 B  c436822c2c306f4d0bcc38300029f9f97b74286b261c68f9911b6bd18e47e2d0
