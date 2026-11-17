@@ -1,0 +1,36 @@
+{
+  "duration_seconds": 114.866633,
+  "segments": [
+    {
+      "start_seconds": 2,
+      "suggested_end_before_seconds": 23.5,
+      "text_draft": "下面动手。新建文件，create，下划线，I M G，点，P Y。",
+      "status": "rough placement; not frame-accurate sync"
+    },
+    {
+      "start_seconds": 24,
+      "suggested_end_before_seconds": 34.5,
+      "text_draft": "先导入，C V 二，和，NumPy。",
+      "status": "rough placement; not frame-accurate sync"
+    },
+    {
+      "start_seconds": 35,
+      "suggested_end_before_seconds": 60.5,
+      "text_draft": "然后输入，img，等于，N P 点 zeros。括号里写，高三百、宽四百、通道三，再指定数据类型是，U int 八。zeros 的意思是全部填零。零就是黑色，所以我们得到了一张全黑的图。",
+      "status": "rough placement; not frame-accurate sync"
+    },
+    {
+      "start_seconds": 61,
+      "suggested_end_before_seconds": 95.5,
+      "text_draft": "打印一下 type，显示是，N D array，说明它就是 NumPy 数组。再打印 shape 和，D type，分别是，三百、四百、三，和，U int 八。",
+      "status": "rough placement; not frame-accurate sync"
+    },
+    {
+      "start_seconds": 96,
+      "suggested_end_before_seconds": 114.367,
+      "text_draft": "最后用，image show，显示出来。你会看到一个高三百、宽四百的黑色窗口。",
+      "status": "rough placement; not frame-accurate sync"
+    }
+  ],
+  "note": "Text-only handoff. Original video, existing audio and reference frames remain local. Timing can be refined after speech synthesis."
+}

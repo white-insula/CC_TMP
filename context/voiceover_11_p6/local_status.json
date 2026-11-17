@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-16",
+  "voice": "Microsoft Huihui Desktop",
+  "local_outputs_exist": true,
+  "not_uploaded_binary_files": [
+    {
+      "name": "11-P6-创建一张黑色图像-配音试听版.mp4",
+      "bytes": 8238270,
+      "sha256": "5482536133df8d16c26f6e6f24a1264012a43023a6f8a24106ce1194af7871f6"
+    },
+    {
+      "name": "11-P6-脚本配音-试听.wav",
+      "bytes": 11023188,
+      "sha256": "9649b6fd134e9857c9710fe9e94c353349909574d6ba1f5bb9ebfae8d250ae68"
+    },
+    {
+      "name": "segment_01.wav",
+      "bytes": 423024,
+      "sha256": "a57155d58ba01b41a5a6dd4f9932d8f52b10a037fb8468a3723dfc155ed1486b"
+    },
+    {
+      "name": "segment_02.wav",
+      "bytes": 226550,
+      "sha256": "ea27ef54a47074486d8cb8484c0e4b72d3a894b15b157a57241cc326c5be17af"
+    },
+    {
+      "name": "segment_03.wav",
+      "bytes": 1092414,
+      "sha256": "bb50f0c64df42ae64bbb8996d353d7124ff24c7349c402da94eed91a4a276246"
+    },
+    {
+      "name": "segment_04.wav",
+      "bytes": 790520,
+      "sha256": "79ff42ba60dbe083218e2a6a8b49d2b34f2ac582219ce6be81e4cf59016dec81"
+    },
+    {
+      "name": "segment_05.wav",
+      "bytes": 453422,
+      "sha256": "9411b725b42ff92fd218b1f0434699601bd1a673c6d5aef169c50e2da0971499"
+    }
+  ],
+  "human_audio_approval": false,
+  "source_video_uploaded": false,
+  "note": "Earlier agent environment failed synthesis; later local script outputs now exist. No claim of listening or quality approval."
+}
